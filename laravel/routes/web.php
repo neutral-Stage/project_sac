@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('front.index');
-});
+// Route::get('/', function () {
+//     return view('front.index');
+// });
+Route::get('/','FrontController@index')->name('home');
+
+// Route::group(['prefix'=>'home'],function(){
+// 	Route::get('/','FrontController@index')->name('home');
+// });
