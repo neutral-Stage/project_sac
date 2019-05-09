@@ -15,10 +15,10 @@
                 <li class="@if(isset($current)) {{ 'current' }} @endif" ><a href="{{ route( 'home') }}"><i class="fa fa-home fa-2x"></i></a>
                 <li class="dropdown"><a href="{{ route( 'home') }}">Home</a>
                     <ul>
-                        <li><a href="">History</a></li>
-                        <li><a href="">Mission/Vision</a></li>
-                        <li><a href="">Values</a></li>
-                        <li><a href="">Board Members</a></li>
+                        <li><a href="{{ route( 'history') }}">History</a></li>
+                        <li><a href="{{ route( 'mission') }}">Mission/Vision</a></li>
+                        <li><a href="{{ route( 'values') }}">Values</a></li>
+                        <li><a href="{{ route( 'board') }}">Board Members</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="{{ route( 'home') }}">Sacrifice Choir</a>

@@ -15,6 +15,10 @@
 //     return view('front.index');
 // });
 Route::get('/','FrontController@index')->name('home');
+Route::get('/history','FrontController@history')->name('history');
+Route::get('/mission','FrontController@mission')->name('mission');
+Route::get('/values','FrontController@values')->name('values');
+Route::get('/board','FrontController@board')->name('board');
 
 // Route::group(['prefix'=>'home'],function(){
 // 	Route::get('/','FrontController@index')->name('home');
