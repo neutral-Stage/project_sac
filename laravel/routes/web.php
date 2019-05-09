@@ -15,6 +15,9 @@
 //     return view('front.index');
 // });
 Route::get('/','FrontController@index')->name('home');
+Route::get('/contact','ContactController@index')->name('contact');
+Route::get('/products','ProductController@index')->name('product.all');
+Route::get('/advartise','AdvartiseController@index')->name('advartise.all');
 
 // Route::group(['prefix'=>'home'],function(){
 // 	Route::get('/','FrontController@index')->name('home');
