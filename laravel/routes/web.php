@@ -37,7 +37,7 @@ Route::get('/sow','SowController@index')->name('sow');
 
 //Volenteer
 
-
+Route::get('/volunteer', 'VolController@index')->name('volunteer');
 // Route::group(['prefix'=>'home'],function(){
 // 	Route::get('/','FrontController@index')->name('home');
 // });

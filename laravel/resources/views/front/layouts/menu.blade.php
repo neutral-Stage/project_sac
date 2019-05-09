@@ -23,15 +23,10 @@
                 </li>
                 <li class="dropdown"><a href="{{ route( 'home') }}">Sacrifice Choir</a>
                     <ul>
-                        <li><a href="">Choir</a></li>
-                        <li><a href="">Volunteerly Involved</a></li>
-                        <li><a href="">Upcoming Event</a></li>
-                        <li><a href="">Testimony</a></li>
-
                     <li><a href="{{route('choir')}}">Choir</a></li>
                     <li><a href="{{route('choir-volunteer')}}">Volunteerly Involved</a></li>
                     <li><a href="{{route('choir-events')}}">Upcoming Event</a></li>
-                        <li><a href="{{route('choir-testimony')}}">Testimony</a></li>
+                    <li><a href="{{route('choir-testimony')}}">Testimony</a></li>
 
                     </ul>
                 </li>
