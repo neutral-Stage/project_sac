@@ -208,6 +208,8 @@
 <script src="{{ asset( 'assets/front') }}/js/knob.js"></script>
 <script src="{{ asset( 'assets/front') }}/js/appear.js"></script>
 <script src="{{ asset( 'assets/front') }}/js/script.js"></script>
+
+@yield('script')
 </body>
 
 <!-- Mirrored from t.commonsupport.com/incles/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Apr 2019 04:11:52 GMT -->

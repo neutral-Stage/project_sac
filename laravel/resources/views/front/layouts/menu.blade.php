@@ -49,13 +49,13 @@
                         <li><a href="">CASE Seminar</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="{{ route( 'home') }}">PM Music</a>
+                <li class="dropdown @if(isset($pro)) {{ 'current' }} @endif"><a href="#">PM Music</a>
                     <ul>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Advartise</a></li>
+                        <li ><a href="{{ route('product.all') }}">Products</a></li>
+                        <li><a href="{{ route('advartise.all') }}">Advartise</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="{{ route( 'home') }}">Impact Nation</a>
+                <li class="dropdown"><a href="">Impact Nation</a>
                     <ul>
                         <li><a href="">NPWC</a></li>
                         <li><a href="">RT</a></li>
@@ -70,7 +70,7 @@
                     </ul>
                 </li>
                 
-                <li><a href="{{ asset( 'assets/front') }}/contact.html">Contact</a></li>
+                <li class="@if(isset($contact)) {{ 'current' }} @endif"><a href="{{ route( 'contact') }}">Contact</a></li>
                 <li><a class="btn bg-white" href="">Become a Volunteer</a></li>
             </ul>
         </div>
