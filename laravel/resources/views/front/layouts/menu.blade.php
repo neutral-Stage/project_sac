@@ -26,7 +26,8 @@
                     <li><a href="{{route('choir')}}">Choir</a></li>
                     <li><a href="{{route('choir-volunteer')}}">Volunteerly Involved</a></li>
                     <li><a href="{{route('choir-events')}}">Upcoming Event</a></li>
-                        <li><a href="{{route('choir-testimony')}}">Testimony</a></li>
+                    <li><a href="{{route('choir-testimony')}}">Testimony</a></li>
+
                     </ul>
                 </li>
                 <li class="dropdown"><a href="{{ route( 'home') }}">SOW</a>
