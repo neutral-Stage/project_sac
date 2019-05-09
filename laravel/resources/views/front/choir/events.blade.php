@@ -4,10 +4,10 @@
      <section class="page-title" style="background-image:url({{asset('assets/front')}}/images/background/17.jpg);">
         <div class="auto-container">
             <div class="title-box">
-                <h1>Events Grid</h1>
+                <h1>Events</h1>
                 <ul class="bread-crumb clearfix">
                     <li><a href="index-2.html">Home </a></li>
-                    <li>Events Grid</li>
+                    <li>Events</li>
                 </ul>
             </div>
         </div>

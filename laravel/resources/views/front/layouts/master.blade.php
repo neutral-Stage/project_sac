@@ -37,11 +37,11 @@
                 <div class="inner-container clearfix">
                     <div class="top-left">
                         <ul class="contact-list clearfix">
-                            <li><a href="{{ asset( 'assets/front') }}/#">info@incles.com</a></li>
-                            <li>+123 456 789 000</li>
+                            <li><a onclick="event.preventDefault()" href="#">director@sacrificetrust.org , philipbsarkar@gmail.com</a></li>
+                            <li>+88029014309, +8801711976957</li>
                         </ul>
                     </div>
-                    <div class="top-right clearfix">
+                    {{-- <div class="top-right clearfix">
                         <ul class="clearfix">
                             <li>Language ; </li>
                             <li class="language dropdownn"><a class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="{{ asset( 'assets/front') }}/#">Eng <span class="icon fa fa-caret-down"></span></a>
@@ -53,7 +53,7 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -81,21 +81,21 @@
             <div class="auto-container">
                 <div class="outer-box">
                     <div class="row clearfix">
-                        <div class="big-column col-md-5 col-sm-12 col-xs-12">
+                        <div class="big-column col-md-6 col-sm-12 col-xs-12">
                             <div class="row clearfix">
                                 <div class="footer-column col-md-7 col-sm-5 col-xs-12">
                                     <div class="footer-widget adress-widget">
                                         <h3>Address</h3>
-                                        <div class="text">Michael I. Days 3756 <br>Preston Street Wichita, KS 67213 <br>- <a href="{{ asset( 'assets/front') }}/#">USA</a></div>
+                                        <div class="text">Director<br>The Sacrifice Trust<br>Philip B Sarkar <br>- <a href="#"></a></div>
                                         <ul>
-                                            <li><a href="{{ asset( 'assets/front') }}/#"><span class="theme_color fa fa-phone"></span> &ensp; +123 456 789 000</a></li>
-                                            <li><a href="{{ asset( 'assets/front') }}/#"><span class="theme_color fa fa-fax"></span> &ensp; +000 123 456 789</a></li>
-                                            <li><a href="{{ asset( 'assets/front') }}/#"><span class="theme_color fa fa-envelope"></span> &ensp; info@incles.com</a></li>
+                                            <li><a onclick="event.preventDefault()" href="#"><span class="theme_color fa fa-phone"></span> &ensp; +88029014309,+8801711976957</a></li>
+                                            <li><a onclick="event.preventDefault()" href="#"><span class="theme_color fa fa-envelope"></span> &ensp; director@sacrificetrust.org</a></li>
+                                            <li><a onclick="event.preventDefault()" href="#"><span class="theme_color fa fa-envelope"></span> &ensp; philipbsarkar@gmail.com</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <div class="footer-column col-md-5 col-sm-4 col-xs-12">
+                                {{-- <div class="footer-column col-md-5 col-sm-4 col-xs-12">
                                     <div class="footer-widget donation-widget">
                                         <h3>Donation</h3>
                                         <ul class="donation-links">
@@ -107,7 +107,7 @@
                                             <li><a href="{{ asset( 'assets/front') }}/#">Toys Donation</a></li>
                                         </ul>
                                     </div> 
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
 
@@ -115,7 +115,7 @@
                             <div class="row clearfix">
                                 <div class="footer-column col-md-6 col-sm-6 col-xs-12">
                                     <!-- Post Widget -->
-                                    <div class="footer-widget post-widget">
+                                    {{-- <div class="footer-widget post-widget">
                                         <h3>Recent Posts </h3>
                                         <ul>
                                             <li class="recent-post">
@@ -133,39 +133,39 @@
                                                 <div class="text"><a href="{{ asset( 'assets/front') }}/blog-single-1.html">Malnutrition is the major cause of infant mortality</a></div>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> --}}
                                 </div>
      
                                 <!--Footer Column-->
                                 <div class="footer-column col-md-6 col-sm-6 col-xs-12">
-                                    <div class="footer-widget tweet-widget">
-                                    <h3>Tweets</h3>
-                                    <div class="twitter-post">
-                                        <div class="name"><span class="fa fa-twitter"></span>@Company_text</div>
-                                        <div class="text">Iferei te compoen iusquam re,vid eperius aus <span>terravera</span> teri fauten it. Supienitui sente ad fac vesil tatiostrim <span>#escreissimiu</span></div>
-										<span class="date">15 May 2019</span>
-                                    </div>
+                                    {{-- <div class="footer-widget tweet-widget">
+                                        <h3>Tweets</h3>
+                                        <div class="twitter-post">
+                                            <div class="name"><span class="fa fa-twitter"></span>@Company_text</div>
+                                            <div class="text">Iferei te compoen iusquam re,vid eperius aus <span>terravera</span> teri fauten it. Supienitui sente ad fac vesil tatiostrim <span>#escreissimiu</span></div>
+    										<span class="date">15 May 2019</span>
+                                        </div>
 
-                                    <div class="twitter-post">
-                                        <div class="name"><span class="fa fa-twitter"></span>@Company_text</div>
-                                        <div class="text">Iferei te compoen iusquam re,vid eperius aus <span>terravera</span>. Supienitui sente ad fac vesil tatiostrim <span>#donate</span></div>
-										<span class="date">12 May 2019</span>
-                                    </div>
+                                        <div class="twitter-post">
+                                            <div class="name"><span class="fa fa-twitter"></span>@Company_text</div>
+                                            <div class="text">Iferei te compoen iusquam re,vid eperius aus <span>terravera</span>. Supienitui sente ad fac vesil tatiostrim <span>#donate</span></div>
+    										<span class="date">12 May 2019</span>
+                                        </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
 
                 <div class="follow-us clearfix">
                     <h5>Follow us on</h5>
                     <ul class="social-icon-colored">
-                        <li class="facebook"><a href="{{ asset( 'assets/front') }}/#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="twitter"><a href="{{ asset( 'assets/front') }}/#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="instagram"><a href="{{ asset( 'assets/front') }}/#"><i class="fa fa-instagram"></i></a></li>
-                        <li class="linkedin"><a href="{{ asset( 'assets/front') }}/#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="google-plus"><a href="{{ asset( 'assets/front') }}/#"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -174,7 +174,7 @@
         <!--Bottom-->
         <div class="footer-bottom">
             <div class="auto-container">
-                <div class="copyright">Copyright <a href="{{ asset( 'assets/front') }}/index-2.html">Incles Charity</a> &copy; 2019. All Rights Reserved</div>
+                <div class="copyright">Copyright <a href="{{ route( 'home') }}">The Sacrifice Trust</a> &copy; 2019. All Rights Reserved</div>
             </div>
         </div>
     </footer>

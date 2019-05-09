@@ -11,9 +11,9 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('front.index');
-// });
+// Route::get('/history', function () {
+//     return 'got it';
+// })->name('history');
 Route::get('/','FrontController@index')->name('home');
 
 Route::get('/history','FrontController@history')->name('history');
