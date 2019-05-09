@@ -23,15 +23,15 @@
                 </li>
                 <li class="dropdown"><a href="{{ route( 'home') }}">Sacrifice Choir</a>
                     <ul>
-                        <li><a href="">Data</a></li>
-                        <li><a href="">Volunteerly Involved</a></li>
-                        <li><a href="">Upcoming Event</a></li>
-                        <li><a href="">Testimony</a></li>
+                    <li><a href="{{route('choir')}}">Choir</a></li>
+                    <li><a href="{{route('choir-volunteer')}}">Volunteerly Involved</a></li>
+                    <li><a href="{{route('choir-events')}}">Upcoming Event</a></li>
+                        <li><a href="{{route('choir-testimony')}}">Testimony</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="{{ route( 'home') }}">SOW</a>
                     <ul>
-                        <li><a href="">School of Worship</a></li>
+                    <li><a href="{{route('sow')}}">School of Worship</a></li>
                         <li class="dropdown" ><a href="">Impact Story(Video)</a>
                             <ul>
                                 <li><a href="">India</a></li>
@@ -71,7 +71,7 @@
                 </li>
                 
                 <li class="@if(isset($contact)) {{ 'current' }} @endif"><a href="{{ route( 'contact') }}">Contact</a></li>
-                <li><a class="btn bg-white" href="">Become a Volunteer</a></li>
+            <li><a class="btn bg-white" href="{{route('volunteer')}}">Become a Volunteer</a></li>
             </ul>
         </div>
     </nav>
@@ -115,7 +115,7 @@
                 </li>
                 <li class="dropdown"><a href="{{ route( 'home') }}">Sacrifice Choir</a>
                     <ul>
-                        <li><a href="">Data</a></li>
+                        <li><a href="">Choir</a></li>
                         <li><a href="">Volunteerly Involved</a></li>
                         <li><a href="">Upcoming Event</a></li>
                         <li><a href="">Testimony</a></li>

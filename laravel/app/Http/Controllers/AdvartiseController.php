@@ -9,6 +9,6 @@ class AdvartiseController extends Controller
     public function index()
     {
     	$pro = 'true';
-    	return view('front.advartise',compact('pro'));
+    	return view('front.pm.advartise',compact('pro'));
     }
 }
