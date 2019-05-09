@@ -26,6 +26,18 @@ Route::get('/products','ProductController@index')->name('product.all');
 Route::get('/advartise','AdvartiseController@index')->name('advartise.all');
 
 
+//Choir
+Route::get('/choir','ChoirController@index')->name('choir');
+Route::get('/choir-volunteer','ChoirController@volunteer')->name('choir-volunteer');
+Route::get('/choir-events','ChoirController@events')->name('choir-events');
+Route::get('/choir-testimony','ChoirController@testimony')->name('choir-testimony');
+
+//SOW
+Route::get('/sow','SowController@index')->name('sow');
+
+//Volenteer
+
+
 // Route::group(['prefix'=>'home'],function(){
 // 	Route::get('/','FrontController@index')->name('home');
 // });

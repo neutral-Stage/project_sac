@@ -203,6 +203,7 @@
 <!--End Revolution Slider-->
 <script src="{{ asset( 'assets/front') }}/js/jquery-ui.js"></script> 
 <script src="{{ asset( 'assets/front') }}/js/jquery.fancybox.js"></script>
+<script src="{{ asset( 'assets/front') }}/js/countdown.js"></script>
 <script src="{{ asset( 'assets/front') }}/js/owl.js"></script>
 <script src="{{ asset( 'assets/front') }}/js/wow.js"></script>
 <script src="{{ asset( 'assets/front') }}/js/knob.js"></script>
