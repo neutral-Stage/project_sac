@@ -23,7 +23,7 @@
                 </li>
                 <li class="dropdown"><a href="{{ route( 'home') }}">Sacrifice Choir</a>
                     <ul>
-                        <li><a href="">Data</a></li>
+                        <li><a href="">Choir</a></li>
                         <li><a href="">Volunteerly Involved</a></li>
                         <li><a href="">Upcoming Event</a></li>
                         <li><a href="">Testimony</a></li>
