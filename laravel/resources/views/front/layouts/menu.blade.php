@@ -56,18 +56,18 @@
                         <li><a href="{{ route('advartise.all') }}">Advartise</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="">Impact Nation</a>
+                <li class="dropdown @if(isset($impact)) {{ 'current' }} @endif"><a href="">Impact Nation</a>
                     <ul>
-                        <li><a href="">NPWC</a></li>
-                        <li><a href="">RT</a></li>
-                        <li><a href="">GCEC</a></li>
+                        <li><a href="{{ route('npwc') }}">NPWC</a></li>
+                        <li><a href="{{ route('rt') }}">RT</a></li>
+                        <li><a href="{{ route('gcec') }}">GCEC</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="{{ route( 'home') }}">LFU</a>
+                <li class="dropdown @if(isset($lfu)) {{ 'current' }} @endif"><a href="{{ route( 'home') }}">LFU</a>
                     <ul>
-                        <li><a href="">Blanket</a></li>
-                        <li><a href="">Flood</a></li>
-                        <li><a href="">Children Service</a></li>
+                        <li><a href="{{ route('blanket') }}">Blanket</a></li>
+                        <li><a href="{{ route('flood') }}">Flood</a></li>
+                        <li><a href="{{ route( 'child') }}">Children Service</a></li>
                     </ul>
                 </li>
                 

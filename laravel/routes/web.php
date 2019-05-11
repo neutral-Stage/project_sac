@@ -36,8 +36,19 @@ Route::get('/choir-testimony','ChoirController@testimony')->name('choir-testimon
 Route::get('/sow','SowController@index')->name('sow');
 
 //Volenteer
-
 Route::get('/volunteer', 'VolController@index')->name('volunteer');
 // Route::group(['prefix'=>'home'],function(){
 // 	Route::get('/','FrontController@index')->name('home');
 // });
+
+//LFU
+Route::get('/LFU-blanket', 'LFUController@blanket')->name('blanket');
+Route::get('/LFU-flood', 'LFUController@flood')->name('flood');
+Route::get('/LFU-children-activities', 'LFUController@child')->name('child');
+
+//Impact Nation
+Route::get('/Impact-Nation/NPWC', 'ImpactController@npwc')->name('npwc');
+Route::get('/Impact-Nation/RT', 'ImpactController@rt')->name('rt');
+Route::get('/Impact-Nation/GCEC', 'ImpactController@gcec')->name('gcec');
+
+
