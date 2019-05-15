@@ -1748,7 +1748,16 @@ img{
 	color: #ffffff;
 	font-weight:700;
 }
-
+.main-slider h3{	
+	/* display: inline-block; */
+	font-size:45px;
+	line-height:1.2em;
+	color: #ffffff;
+	font-weight:800;
+	background: #d94b38;
+	padding: 5px 8px;
+	border-radius: 5px;
+}
 .main-slider h2{	
 	display: inline-block;
 	font-size:64px;
@@ -1767,7 +1776,7 @@ img{
 
 .main-slider .text{
 	position:relative;
-	font-size:18px;
+	font-size:20px;
 	line-height: 30px;
 	color:#ffffff;
 	font-weight:400;
@@ -5516,9 +5525,9 @@ img{
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #000000;
+	background-color: rgba(0,0,0,0.5);
 	content: "";
-	opacity: .10;
+	opacity: .7;
 }
 
 .donation-section .title-column .inner-column{
@@ -5707,8 +5716,8 @@ img{
 
 .testimonial-block .info .sign img{
 	display: block;
-	max-width: 100%;
-	width: auto
+	/*max-width: 100%;*/
+	width: 100px;
 }
 
 .testimonial-carousel .owl-nav{

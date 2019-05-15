@@ -37,8 +37,9 @@
                 <div class="inner-container clearfix">
                     <div class="top-left">
                         <ul class="contact-list clearfix">
-                            <li><a onclick="event.preventDefault()" href="#">director@sacrificetrust.org , philipbsarkar@gmail.com</a></li>
-                            <li>+88029014309, +8801711976957</li>
+
+                            <marquee behavior="scroll" direction="left" style="color:white;">Building Worship Community Among The Nations</marquee>
+
                         </ul>
                     </div>
                     {{-- <div class="top-right clearfix">
@@ -63,7 +64,7 @@
         <div class="header-upper" style="background-image: url(images/background/1.jpg);">
             <div class="auto-container">
                 <div class="logo-box">
-                    <div class="logo"><a href="{{ asset( 'assets/front') }}/index-2.html"><img src="{{ asset( 'assets/front') }}/images/sac.png" alt="" title=""></a></div>
+                    <div class="logo"><a href="{{ route( 'home') }}"><img src="{{ asset( 'assets/front') }}/images/sac.png" alt="" title=""></a></div>
                 </div>
 
                 @include('front.layouts.menu')
