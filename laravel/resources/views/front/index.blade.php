@@ -886,7 +886,7 @@
                 </div>
 
                 <div class="image-column col-md-6 col-sm-12 col-xs-12 wow fadeInRight">
-                    <div class="image"><figure><img src="{{ asset( 'assets/front') }}/images/home/mridul.jpg" alt=""></figure></div>
+                    <div class="image"><figure><img src="{{ asset( 'assets/front') }}/images/home/Mridul.png" alt=""></figure></div>
                 </div>
             </div>
         </div>

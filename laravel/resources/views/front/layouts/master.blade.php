@@ -35,26 +35,9 @@
         <div class="header-top">
             <div class="auto-container">
                 <div class="inner-container clearfix">
-                    <div class="top-left">
-                        <ul class="contact-list clearfix">
-
-                            <marquee behavior="scroll" direction="left" style="color:white;">Building Worship Community Among The Nations</marquee>
-
-                        </ul>
+                    <div id="marquee">
+                        <div id="text">Building Worship Community Among The Nations </div>
                     </div>
-                    {{-- <div class="top-right clearfix">
-                        <ul class="clearfix">
-                            <li>Language ; </li>
-                            <li class="language dropdownn"><a class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="{{ asset( 'assets/front') }}/#">Eng <span class="icon fa fa-caret-down"></span></a>
-                                <ul class="dropdown-menu style-one" aria-labelledby="dropdownMenu1">
-                                    <li><a href="{{ asset( 'assets/front') }}/#">Arabic</a></li>
-                                    <li><a href="{{ asset( 'assets/front') }}/#">China</a></li>
-                                    <li><a href="{{ asset( 'assets/front') }}/#">German</a></li>
-                                    <li><a href="{{ asset( 'assets/front') }}/#">French</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div> --}}
                 </div>
             </div>
         </div>

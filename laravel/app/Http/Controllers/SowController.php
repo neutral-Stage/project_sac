@@ -11,4 +11,10 @@ class SowController extends Controller
     	$pro = 'true';
     	return view('front.sow.sow',compact('pro'));
     }
+
+    public function wme()
+    {
+    	$pro = 'true';
+    	return view('front.sow.wme',compact('pro'));
+    }
 }

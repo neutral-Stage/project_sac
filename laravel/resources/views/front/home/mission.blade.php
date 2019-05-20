@@ -4,7 +4,7 @@
     <section class="page-title" style="background-image:url( {{asset('assets/front') }}/images/background/13.jpg);">
         <div class="auto-container">
             <div class="title-box">
-                <h1>Mission / Vision</h1>
+                <h1>Vision and Mission Statement</h1>
                 <ul class="bread-crumb clearfix">
                     <li><a href="{{ route('home') }}">Home </a></li>
                     <li>Mission / Vision</li>
@@ -17,13 +17,30 @@
     <!-- Become Volunteer -->
     <section class="become-volunteer alternate">
         <div class="auto-container">
-            
 
-                <div class="feature-column col-lg-7 col-md-12 col-sm-12 col-xs-12">
+            <div class="feature-column col-lg-7 col-md-12 col-sm-12 col-xs-12">
                     <div class="inner-column">
                         <div class="sec-title">
-                            <h2>Our Mission</h2>
-                            <div class="text">Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.  management inside of workflows to establish a framework. Taking seamless key performance</div>
+                            <h2>Our Vision</h2>
+                            <div class="text" style="font-size: 20px;line-height: 2;">“To preach out the Gospel among the nations without discrimination and elaborately through appropriate cultural method.”</div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <!-- Image column -->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column wow fadeIn">
+                        <figure><img src="{{ asset( 'assets/front') }}/images/home/slider-2.JPG" alt=""></figure>
+                    </div>
+                </div>
+
+            <div class="feature-column col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <h2>Mission Statement</h2>
+                            <div class="text">To fulfill the Great commission by preaching the Gospel among the nations through appropriate cultural method, teaching & equipping the generation to grow with moral, spiritual and social value and moreover to the service of Christ for establishing holistic model.</div>
                         </div>
 
                         <div class="row clearfix">
@@ -31,8 +48,8 @@
                             <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-box">
                                     <div class="icon-box"><span class="flaticon-pay"></span></div>
-                                    <h3><a href="department.html">Make Donation</a></h3>
-                                    <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
+                                    <h3><a href="department.html">Acceptance</a></h3>
+                                    <div class="text">Acceptance to the new generation by the combination of culture</div>
                                 </div>
                             </div>
 
@@ -40,8 +57,8 @@
                             <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-box">
                                     <div class="icon-box"><span class="flaticon-system"></span></div>
-                                    <h3><a href="department.html">Give Scholarship</a></h3>
-                                    <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
+                                    <h3><a href="department.html">Encouragement</a></h3>
+                                    <div class="text">Encouragement of Christian values and consciousness so that the true spirituality can prosper through the scriptural engagement. </div>
                                 </div>
                             </div>
 
@@ -49,8 +66,8 @@
                             <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-box">
                                     <div class="icon-box"><span class="flaticon-tshirt"></span></div>
-                                    <h3><a href="department.html">Become a Volunteer</a></h3>
-                                    <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
+                                    <h3><a href="department.html">Cultural Activities</a></h3>
+                                    <div class="text">By the service of cultural & necessary activities to reduce the social and moral decadence.</div>
                                 </div>
                             </div>
 
@@ -58,8 +75,8 @@
                             <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-box">
                                     <div class="icon-box"><span class="flaticon-teamwork"></span></div>
-                                    <h3><a href="department.html">Support our People</a></h3>
-                                    <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
+                                    <h3><a href="department.html">Preach</a></h3>
+                                    <div class="text">To preach out the Gospel among the nations through Cultural Gifts and personal interest.</div>
                                 </div>
                             </div>
                         </div>
@@ -73,169 +90,15 @@
                     </div>
                 </div>
 
-                <!-- Info Column -->
-                <div class="info-column col-md-12 col-sm-12 col-xs-12">
-                    <div class="row clearfix">
-                        <!-- Work Block -->
-                        <div class="work-block-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <h4><a href="causes-single.html">Give Donation</a></h4>
-                                <div class="text">Objectively innovate empowered tured products whereas parallel</div>
-                            </div>
-                        </div>
+            
 
-                        <!-- Work Block -->
-                        <div class="work-block-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <h4><a href="causes-single.html">Give Scholarship</a></h4>
-                                <div class="text">Objectively innovate empowered tured products whereas parallel</div>
-                            </div>
-                        </div>
-
-                        <!-- Work Block -->
-                        <div class="work-block-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <h4><a href="causes-single.html">Adopt a Child</a></h4>
-                                <div class="text">Objectively innovate empowered tured products whereas parallel</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+               <!--  Info Column -->
+                
     </section>
     <!--End Become Volunteer -->
 
     <!-- Team Section -->
-    <section class="team-section-two">
-        <div class="title-box" style="background-image: url({{ asset( 'assets/front') }}/images/background/8.jpg);">
-            <div class="auto-container">
-                <div class="sec-title light text-center">
-                    <h2>We Are Helping Hand</h2>
-                </div>
-                <div class="row clearfix">
-                    <div class="title-colum col-md-6 col-sm-12 col-xs-12">
-                        <div class="inner-column">
-                            <h4>Now Need Your Help</h4>
-                            <div class="text">Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your.</div>
-                        </div>
-                    </div>
-
-                    <div class="form-column col-md-6 col-sm-12 col-xs-12">
-                        <div class="inner-column">
-                            <div class="subscribe-form">
-                                <form method="post" action="http://t.commonsupport.com/incles/contact.html">
-                                    <div class="form-group">
-                                        <input type="email" name="email" value="" placeholder="Enter Your Email" required="">
-                                        <button type="submit" class="theme-btn btn-style-one">Subscribe</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Team Box -->
-        <div class="team-box">
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <!-- Team Block Two -->
-                    <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-1.jpg" alt=""></figure>
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content">
-                                <h4 class="name"><a href="team-single.html">Jane Mcallister</a></h4>
-                                <span class="designation">Donater</span>
-                                <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                                <div class="link-box">
-                                    <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Team Block Two -->
-                    <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="400ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-2.jpg" alt=""></figure>
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content">
-                                <h4 class="name"><a href="team-single.html">Sandy Nattasha</a></h4>
-                                <span class="designation">Founder</span>
-                                <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                                <div class="link-box">
-                                    <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Team Block Two -->
-                    <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="800ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-3.jpg" alt=""></figure>
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content">
-                                <h4 class="name"><a href="team-single.html">John Dou</a></h4>
-                                <span class="designation">Manager</span>
-                                <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                                <div class="link-box">
-                                    <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Team Block Two -->
-                    <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1200ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-4.jpg" alt=""></figure>
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content">
-                                <h4 class="name"><a href="team-single.html">Boom Morly</a></h4>
-                                <span class="designation">Donater</span>
-                                <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                                <div class="link-box">
-                                    <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <!--End Team Section -->
 
     <!--Fun Facts Section-->
@@ -244,52 +107,19 @@
             <div class="fact-counter">
                 <div class="row clearfix">
                     <!--Column-->
-                    <div class="counter-column-two col-md-3 col-sm-6 col-xs-12 wow fadeIn">
+                    <div class="counter-column-two col-md-12 col-sm-12 col-xs-12 wow fadeIn">
                         <div class="inner">
                             <div class="count-box">
-                                <span class="icon flaticon-heart-12"></span>
-                                <span class="count-text" data-speed="3000" data-stop="156">0</span>
-                                <span class="counter-title">Successful Projects</span>
-                                <div class="text">Activity to beta test. Override the digital divide with additional clickthroughs from sodales,</div>
+                                <!-- <span class="icon flaticon-heart-12"></span> -->
+                                
+                                <span class="counter-title" style="line-height: 2;">“Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age." Mt 28:19-20</span>
+                                
                             </div>
                         </div>
                     </div>
 
-                    <!--Column-->
-                    <div class="counter-column-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="400ms">
-                        <div class="inner">
-                            <div class="count-box">
-                                <span class="icon flaticon-give-love"></span>
-                                <span class="count-text" data-speed="3000" data-stop="1256">0</span>
-                                <span class="counter-title">People Impacted</span>
-                                <div class="text">Activity to beta test. Override the digital divide with additional clickthroughs from sodales,</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="counter-column-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="800ms">
-                        <div class="inner">
-                            <div class="count-box">
-                                <span class="icon flaticon-make-a-donation"></span>
-                                $<span class="count-text" data-speed="3000" data-stop="176">0</span>
-                                <span class="counter-title">Money Donated</span>
-                                <div class="text">Activity to beta test. Override the digital divide with additional clickthroughs from sodales,</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="counter-column-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1200ms">
-                        <div class="inner">
-                            <div class="count-box">
-                                <span class="icon flaticon-solidarity-3"></span>
-                                <span class="count-text" data-speed="3000" data-stop="2564">0</span>
-                                <span class="counter-title">Total Volunteers</span>
-                                <div class="text">Activity to beta test. Override the digital divide with additional clickthroughs from sodales,</div>
-                            </div>
-                        </div>
-                    </div>
+                   
+                    
                 </div>
             </div>
         </div>

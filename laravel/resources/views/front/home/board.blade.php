@@ -137,7 +137,7 @@
                 <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="400ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-10.jpg" alt=""></figure>
+                            <figure><img src="{{ asset( 'assets/front') }}/images/home/bm_kallol.jpg" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>

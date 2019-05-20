@@ -52,14 +52,14 @@
                 </li>
                 <li class="dropdown @if(isset($pro)) {{ 'current' }} @endif"><a href="#">PM Music</a>
                     <ul>
-                        <li ><a href="{{ route('product.all') }}">Products</a></li>
-                        <li><a href="{{ route('advartise.all') }}">Advartise</a></li>
+                        <li ><a href="{{ route('product.all') }}">In-House</a></li>
+                        <li><a href="{{ route('advartise.all') }}">Out-House</a></li>
                     </ul>
                 </li>
                 <li class="dropdown @if(isset($impact)) {{ 'current' }} @endif"><a href="">Impact Nation</a>
                     <ul>
                         <li><a href="{{ route('npwc') }}">NPWC</a></li>
-                        <li><a href="{{ route('rt') }}">RT</a></li>
+                        <li><a href="{{ route('rt') }}">RockTeens</a></li>
                         <li><a href="{{ route('gcec') }}">GCEC</a></li>
                     </ul>
                 </li>
@@ -108,23 +108,24 @@
                 <li class="@if(isset($current)) {{ 'current' }} @endif" ><a href="{{ route( 'home') }}"><i class="fa fa-home fa-2x"></i></a>
                 <li class="dropdown"><a href="{{ route( 'home') }}">Home</a>
                     <ul>
-                        <li><a href="">History</a></li>
-                        <li><a href="">Mission/Vision</a></li>
-                        <li><a href="">Values</a></li>
-                        <li><a href="">Board Members</a></li>
+                        <li><a href="{{ route( 'history') }}">History</a></li>
+                        <li><a href="{{ route( 'mission') }}">Mission/Vision</a></li>
+                        <li><a href="{{ route( 'values') }}">Values</a></li>
+                        <li><a href="{{ route( 'board') }}">Board Members</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="{{ route( 'home') }}">Sacrifice Choir</a>
                     <ul>
-                        <li><a href="">Choir</a></li>
-                        <li><a href="">Choir Membership</a></li>
-                        <li><a href="">Upcoming Event</a></li>
-                        <li><a href="">Testimony</a></li>
+                    <li><a href="{{route('choir')}}">Choir</a></li>
+                    <li><a href="{{route('choir-volunteer')}}">Choir Membership</a></li>
+                    <li><a href="{{route('choir-events')}}">Upcoming Event</a></li>
+                    <li><a href="{{route('choir-testimony')}}">Testimony</a></li>
+
                     </ul>
                 </li>
                 <li class="dropdown"><a href="{{ route( 'home') }}">SOW</a>
                     <ul>
-                        <li><a href="">School of Worship</a></li>
+                    <li><a href="{{route('sow')}}">School of Worship</a></li>
                         <li class="dropdown" ><a href="">Impact Story(Video)</a>
                             <ul>
                                 <li><a href="">India</a></li>
@@ -142,29 +143,29 @@
                         <li><a href="">CASE Seminar</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="{{ route( 'home') }}">PM Music</a>
+                <li class="dropdown @if(isset($pro)) {{ 'current' }} @endif"><a href="#">PM Music</a>
                     <ul>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Advartise</a></li>
+                        <li ><a href="{{ route('product.all') }}">In-House</a></li>
+                        <li><a href="{{ route('advartise.all') }}">Out-House</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="{{ route( 'home') }}">Impact Nation</a>
+                <li class="dropdown @if(isset($impact)) {{ 'current' }} @endif"><a href="">Impact Nation</a>
                     <ul>
-                        <li><a href="">NPWC</a></li>
-                        <li><a href="">RT</a></li>
-                        <li><a href="">GCEC</a></li>
+                        <li><a href="{{ route('npwc') }}">NPWC</a></li>
+                        <li><a href="{{ route('rt') }}">RockTeens</a></li>
+                        <li><a href="{{ route('gcec') }}">GCEC</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="{{ route( 'home') }}">LFU</a>
+                <li class="dropdown @if(isset($lfu)) {{ 'current' }} @endif"><a href="{{ route( 'home') }}">LFU</a>
                     <ul>
-                        <li><a href="">Blanket</a></li>
-                        <li><a href="">Flood</a></li>
-                        <li><a href="">Children Service</a></li>
+                        <li><a href="{{ route('blanket') }}">Blanket</a></li>
+                        <li><a href="{{ route('flood') }}">Flood</a></li>
+                        <li><a href="{{ route( 'child') }}">Children Service</a></li>
                     </ul>
                 </li>
                 
-                <li><a href="{{ asset( 'assets/front') }}/contact.html">Contact</a></li>
-                <li><a class="btn bg-white" href="">Become a Volunteer</a></li>
+                <li class="@if(isset($contact)) {{ 'current' }} @endif"><a href="{{ route( 'contact') }}">Contact</a></li>
+            <li><a class="btn bg-white" href="{{route('volunteer')}}">Become a Volunteer</a></li>
             </ul>
                 </div>
             </nav><!-- Main Menu End-->
