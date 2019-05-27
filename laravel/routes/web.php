@@ -52,3 +52,26 @@ Route::get('/Impact-Nation/RT', 'ImpactController@rt')->name('rt');
 Route::get('/Impact-Nation/GCEC', 'ImpactController@gcec')->name('gcec');
 
 
+
+Auth::routes();
+
+Route::prefix('dashboard')->middleware('auth')->group(function () {
+    Route::get('/', 'Dashboard\dashboardController@index')->name('admin.dashboard');
+});
+Route::get('/home', 'Dashboard\dashboardController@index')->name('home')->middleware('auth');
+
+Route::post('/photo/store', 'Dashboard\dashboardController@photo')->name('photo');
+    
+
+//user access control
+Route::prefix('s_admin')->middleware('auth','Check_super_admin')->group(function () {
+	Route::get('/user/all', 'Dashboard\UserAccessController@index')->name('user.all');
+	Route::get('/user/access/view/{id}', 'Dashboard\UserAccessController@access')->name('user.access.view');
+
+	Route::get('/user/access/set_role/{id}/{role_id}', 'Dashboard\UserAccessController@set_role')->name('make.author');
+	Route::get('/user/access/seize_role/{id}/{role_id}', 'Dashboard\UserAccessController@seize_role')->name('suspend.author');
+});
+
+//Authorization Failed page
+Route::get('/auth/failed', 'Dashboard\dashboardController@auth_failed')->name('user.auth.failed');
+
