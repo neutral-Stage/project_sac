@@ -8,22 +8,22 @@ class ChoirController extends Controller
 {
     public function index()
     {
-    	$pro = 'true';
-    	return view('front.choir.choir',compact('pro'));
+    	$choir = 'true';
+    	return view('front.choir.choir',compact('choir'));
     }
     public function volunteer()
     {
-    	$pro = 'true';
-    	return view('front.choir.volunteer',compact('pro'));
+    	$choir = 'true';
+    	return view('front.choir.volunteer',compact('choir'));
     }
     public function events()
     {
-    	$pro = 'true';
-    	return view('front.choir.events',compact('pro'));
+    	$choir = 'true';
+    	return view('front.choir.events',compact('choir'));
     }
     public function testimony()
     {
-    	$pro = 'true';
-    	return view('front.choir.testimony',compact('pro'));
+    	$choir = 'true';
+    	return view('front.choir.testimony',compact('choir'));
     }
 }

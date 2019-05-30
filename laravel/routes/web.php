@@ -14,7 +14,7 @@
 // Route::get('/history', function () {
 //     return 'got it';
 // })->name('history');
-Route::get('/','FrontController@index')->name('home');
+Route::get('/','FrontController@index')->name('home.front');
 
 Route::get('/history','FrontController@history')->name('history');
 Route::get('/mission','FrontController@mission')->name('mission');
@@ -55,9 +55,21 @@ Route::get('/Impact-Nation/GCEC', 'ImpactController@gcec')->name('gcec');
 
 Auth::routes();
 
+//Dashboard Route
 Route::prefix('dashboard')->middleware('auth')->group(function () {
     Route::get('/', 'Dashboard\dashboardController@index')->name('admin.dashboard');
 });
+
+//slider Route
+Route::prefix('dashboard/slider')->middleware('auth')->group(function () {
+    Route::get('/create', 'Dashboard\sliderController@create')->name('slider.create');
+    Route::post('/store', 'Dashboard\sliderController@store')->name('slider.store');
+    Route::get('/manage', 'Dashboard\sliderController@index')->name('slider.index');
+    Route::get('/edit/{id}', 'Dashboard\sliderController@edit')->name('slider.edit');
+    Route::post('/update/{id}', 'Dashboard\sliderController@update')->name('slider.update');
+    Route::get('/delete/{id}', 'Dashboard\sliderController@delete')->name('slider.delete');
+});
+
 Route::get('/home', 'Dashboard\dashboardController@index')->name('home')->middleware('auth');
 
 Route::post('/photo/store', 'Dashboard\dashboardController@photo')->name('photo');

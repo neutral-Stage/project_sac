@@ -18,29 +18,31 @@
 @if(in_array('super_admin', $role_names))
 <!--==========================================---------------=====================-->
             <li class="@if(isset($activesateus)) {{ $activesateus == 'user' ? 'active' : '' }} @endif">
-                <a href="{{ route('user.all') }}"><i class="sidebar-item-icon fa fa-users"></i>
+                <a href="{{ route('user.all') }}"><i class="sidebar-item-icon fa fa-slideshare"></i>
                     <span class="nav-label">Manage Users</span></a>
             </li>
+
 <!--==========================================---------------=====================-->
-@endif
-<!--==========================================---------------=====================-->
-            
-<!--==========================================---------------=====================-->
-            <li class=" @if(isset($activesateus)) {{ $activesateus == 'service' ? 'active' : '' }} @endif">
-                <a href="javascript:;"><i class="sidebar-item-icon fa fa-bookmark"></i>
-                    <span class="nav-label">Service</span><i class="fa fa-angle-left arrow"></i></a>
+            <li class=" @if(isset($activesateus)) {{ $activesateus == 'slide' ? 'active' : '' }} @endif">
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-photo"></i>
+                    <span class="nav-label">Slider</span><i class="fa fa-angle-left arrow"></i></a>
                 <ul class="nav-2-level collapse">
                     <li>
-                        <a class="@if(isset($activesubsateus)) {{ $activesubsateus == 'service.add' ? 'active' : '' }} @endif" href="">
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'slide.add' ? 'active' : '' }} @endif" href="{{ route('slider.create') }}">
                         <i class="sidebar-item-icon fa fa-plus"></i>Add</a>
                     </li>
                     <li>
-                        <a class="@if(isset($activesubsateus)) {{ $activesubsateus == 'service.index' ? 'active' : '' }} @endif" href="">
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'slide.manage' ? 'active' : '' }} @endif" href="{{ route('slider.index') }}">
                         <i class="sidebar-item-icon fa fa-gear"></i>Manage</a>
                     </li>
                     
                 </ul>
             </li>
+<!--==========================================---------------=====================-->
+@endif
+            
+<!--==========================================---------------=====================-->
+            
             
 <!--==========================================---------------=====================-->
             {{-- <li>

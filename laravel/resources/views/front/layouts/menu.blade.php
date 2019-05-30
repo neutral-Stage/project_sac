@@ -12,8 +12,8 @@
         
         <div class="navbar-collapse collapse clearfix">
             <ul class="navigation clearfix">
-                <li class="@if(isset($current)) {{ 'current' }} @endif" ><a href="{{ route( 'home') }}"><i class="fa fa-home fa-2x"></i></a>
-                <li class="dropdown"><a href="{{ route( 'home') }}">Home</a>
+                <li class="@if(isset($current)) {{ 'current' }} @endif" ><a href="{{ route( 'home.front') }}"><i class="fa fa-home fa-2x"></i></a>
+                <li class="dropdown @if(isset($history)) {{ 'current' }} @endif"><a href="{{ route( 'home') }}">About Us</a>
                     <ul>
                         <li><a href="{{ route( 'history') }}">History</a></li>
                         <li><a href="{{ route( 'mission') }}">Mission/Vision</a></li>
@@ -21,7 +21,7 @@
                         <li><a href="{{ route( 'board') }}">Board Members</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="{{ route( 'home') }}">Sacrifice Choir</a>
+                <li class="dropdown @if(isset($choir)) {{ 'current' }} @endif"><a href="{{ route( 'home') }}">Sacrifice Choir</a>
                     <ul>
                     <li><a href="{{route('choir')}}">Choir</a></li>
                     <li><a href="{{route('choir-volunteer')}}">Choir Membership</a></li>

@@ -13,22 +13,22 @@ class FrontController extends Controller
     }
     public function history()
     {
-    	$current = 'true';
-    	return view('front.home.history',compact('current'));
+    	$history = 'true';
+    	return view('front.home.history',compact('history'));
     }
     public function mission()
     {
-    	$current = 'true';
-    	return view('front.home.mission',compact('current'));
+    	$history = 'true';
+    	return view('front.home.mission',compact('history'));
     }
     public function values()
     {
-    	$current = 'true';
-    	return view('front.home.values',compact('current'));
+    	$history = 'true';
+    	return view('front.home.values',compact('history'));
     }
     public function board()
     {
-    	$current = 'true';
-    	return view('front.home.board',compact('current'));
+    	$history = 'true';
+    	return view('front.home.board',compact('history'));
     }
 }

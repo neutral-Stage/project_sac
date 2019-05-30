@@ -14,6 +14,7 @@
     <link href="{{ asset('back') }}/assets/vendors/jvectormap/jquery-jvectormap-2.0.3.css" rel="stylesheet" />
     <!-- THEME STYLES-->
     <link href="{{ asset('back') }}/assets/css/main.min.css" rel="stylesheet" />
+    <link href="{{ asset('back') }}/assets/vendors/jquery-minicolors/jquery.minicolors.css" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
 </head>
 
@@ -344,14 +345,16 @@
     <script src="{{ asset('back') }}/assets/vendors/metisMenu/dist/metisMenu.min.js" type="text/javascript"></script>
     <script src="{{ asset('back') }}/assets/vendors/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
     <!-- PAGE LEVEL PLUGINS-->
-    <script src="{{ asset('back') }}/assets/vendors/chart.js/dist/Chart.min.js" type="text/javascript"></script>
-    <script src="{{ asset('back') }}/assets/vendors/jvectormap/jquery-jvectormap-2.0.3.min.js" type="text/javascript"></script>
-    <script src="{{ asset('back') }}/assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
-    <script src="{{ asset('back') }}/assets/vendors/jvectormap/jquery-jvectormap-us-aea-en.js" type="text/javascript"></script>
+    
+    <!-- CORE SCRIPTS-->
+    <script src="assets/js/app.min.js" type="text/javascript"></script>
+    <!-- PAGE LEVEL SCRIPTS-->
+    <script src="{{ asset('back') }}/assets/js/scripts/form-plugins.js" type="text/javascript"></script>
     <!-- CORE SCRIPTS-->
     <script src="{{ asset('back') }}/assets/js/app.min.js" type="text/javascript"></script>
     <!-- PAGE LEVEL SCRIPTS-->
-    <script src="{{ asset('back') }}/assets/js/scripts/dashboard_1_demo.js" type="text/javascript"></script>
+    
+    <!-- Specif SCRIPTS-->
     @yield('script')
 </body>
 
