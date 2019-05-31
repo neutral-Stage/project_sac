@@ -24,7 +24,7 @@
 
 <!--==========================================---------------=====================-->
             <li class=" @if(isset($activesateus)) {{ $activesateus == 'slide' ? 'active' : '' }} @endif">
-                <a href="javascript:;"><i class="sidebar-item-icon fa fa-photo"></i>
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-sliders"></i>
                     <span class="nav-label">Slider</span><i class="fa fa-angle-left arrow"></i></a>
                 <ul class="nav-2-level collapse">
                     <li>
@@ -33,6 +33,42 @@
                     </li>
                     <li>
                         <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'slide.manage' ? 'active' : '' }} @endif" href="{{ route('slider.index') }}">
+                        <i class="sidebar-item-icon fa fa-gear"></i>Manage</a>
+                    </li>
+                    
+                </ul>
+            </li>
+<!--==========================================---------------=====================-->
+
+<!--==========================================---------------=====================-->
+            <li class=" @if(isset($activesateus)) {{ $activesateus == 'gallery' ? 'active' : '' }} @endif">
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-image"></i>
+                    <span class="nav-label">Gallery</span><i class="fa fa-angle-left arrow"></i></a>
+                <ul class="nav-2-level collapse">
+                    <li>
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'gallery.add' ? 'active' : '' }} @endif" href="{{ route('gallery.create') }}">
+                        <i class="sidebar-item-icon fa fa-plus"></i>Add</a>
+                    </li>
+                    <li>
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'gallery.manage' ? 'active' : '' }} @endif" href="{{ route('gallery.index') }}">
+                        <i class="sidebar-item-icon fa fa-gear"></i>Manage</a>
+                    </li>
+                    
+                </ul>
+            </li>
+<!--==========================================---------------=====================-->
+
+<!--==========================================---------------=====================-->
+            <li class=" @if(isset($activesateus)) {{ $activesateus == 'gallery' ? 'active' : '' }} @endif">
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-image"></i>
+                    <span class="nav-label">Gallery</span><i class="fa fa-angle-left arrow"></i></a>
+                <ul class="nav-2-level collapse">
+                    <li>
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'gallery.add' ? 'active' : '' }} @endif" href="{{ route('gallery.create') }}">
+                        <i class="sidebar-item-icon fa fa-plus"></i>Add</a>
+                    </li>
+                    <li>
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'gallery.manage' ? 'active' : '' }} @endif" href="{{ route('gallery.index') }}">
                         <i class="sidebar-item-icon fa fa-gear"></i>Manage</a>
                     </li>
                     
