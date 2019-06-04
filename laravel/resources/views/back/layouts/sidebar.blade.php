@@ -59,17 +59,39 @@
 <!--==========================================---------------=====================-->
 
 <!--==========================================---------------=====================-->
-            <li class=" @if(isset($activesateus)) {{ $activesateus == 'gallery' ? 'active' : '' }} @endif">
-                <a href="javascript:;"><i class="sidebar-item-icon fa fa-image"></i>
-                    <span class="nav-label">Gallery</span><i class="fa fa-angle-left arrow"></i></a>
+            <li class=" @if(isset($activesateus)) {{ $activesateus == 'uce' ? 'active' : '' }} @endif">
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-clock-o"></i>
+                    <span class="nav-label">Up Coming Event</span><i class="fa fa-angle-left arrow"></i></a>
                 <ul class="nav-2-level collapse">
                     <li>
-                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'gallery.add' ? 'active' : '' }} @endif" href="{{ route('gallery.create') }}">
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'uce.add' ? 'active' : '' }} @endif" href="{{ route('upcoming.create') }}">
                         <i class="sidebar-item-icon fa fa-plus"></i>Add</a>
                     </li>
                     <li>
-                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'gallery.manage' ? 'active' : '' }} @endif" href="{{ route('gallery.index') }}">
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'uce.manage' ? 'active' : '' }} @endif" href="{{ route('upcoming.index') }}">
                         <i class="sidebar-item-icon fa fa-gear"></i>Manage</a>
+                    </li>
+                    
+                </ul>
+            </li>
+<!--==========================================---------------=====================-->
+
+<!--==========================================---------------=====================-->
+            <li class=" @if(isset($activesateus)) {{ $activesateus == 'choir' ? 'active' : '' }} @endif">
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-stack-exchange"></i>
+                    <span class="nav-label">Choir</span><i class="fa fa-angle-left arrow"></i></a>
+                <ul class="nav-2-level collapse">
+                    <li>
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'addvideo' ? 'active' : '' }} @endif" href="{{ route('choir.video.create') }}">
+                        <i class="sidebar-item-icon fa fa-dot-circle-o"></i>Add Video URL</a>
+                    </li>
+                    <li>
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'tm.add' ? 'active' : '' }} @endif" href="{{ route('team_member.create') }}">
+                        <i class="sidebar-item-icon fa fa-dot-circle-o"></i>Add Choir Member</a>
+                    </li>
+                    <li>
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'tm.manage' ? 'active' : '' }} @endif" href="{{ route('team_member.index') }}">
+                        <i class="sidebar-item-icon fa fa-gear"></i>Manage Choir Member</a>
                     </li>
                     
                 </ul>

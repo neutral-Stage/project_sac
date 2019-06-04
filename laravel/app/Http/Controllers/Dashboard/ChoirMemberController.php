@@ -4,13 +4,11 @@ namespace App\Http\Controllers\Dashboard;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
-use App\Gallery;
+use App\Choirteammember;
 use Illuminate\Support\Facades\Input;
 use Intervention\Image\Facades\Image;
-use Auth;
 
-class GalleryController extends Controller
+class ChoirMemberController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -19,10 +17,10 @@ class GalleryController extends Controller
      */
     public function index()
     {
-        $activesateus = 'gallery';
-        $subactivesateus = 'gallery.manage';
-        $galleries = Gallery::orderBy('type')->paginate(10);
-        return view('back.gallery.index',compact('activesateus','subactivesateus','galleries'));
+        $activesateus = 'choir';
+        $subactivesateus = 'tm.manage';
+        $members = Choirteammember::orderBy('id')->paginate(10);
+        return view('back.choir.tmember.index',compact('activesateus','subactivesateus','members'));
     }
 
     /**
@@ -32,9 +30,9 @@ class GalleryController extends Controller
      */
     public function create()
     {
-        $activesateus = 'gallery';
-        $subactivesateus = 'gallery.add';
-        return view('back.gallery.create',compact('activesateus','subactivesateus'));
+        $activesateus = 'choir';
+        $subactivesateus = 'tm.add';
+        return view('back.choir.tmember.create',compact('activesateus','subactivesateus'));
     }
 
     /**
@@ -46,26 +44,23 @@ class GalleryController extends Controller
     public function store(Request $request)
     {
         $validatedData = $request->validate([
-            'type' => 'required',
-            'heading' => 'required',
-            'photo' => 'required'
+            'name' => 'required',
+            'image' => 'required'
         ]);
 
-
-        if($request->hasFile('photo')){
+        //return $request->all();
+        if($request->hasFile('image')){
             $q = $request->quality;
-            $file = $request->photo;
+            $file = $request->image;
             $extention = $file->getClientOriginalExtension();
             $filename = rand(111111, 999999) . "." . $extention;
-            Image::make(Input::file('photo'))->save('back/assets/img/gallery/'.$filename, $q);
+            Image::make(Input::file('image'))->save('back/assets/img/teamMember/'.$filename, $q);
            //return $request->all();
-            $request['image']=$filename;
+            $request['photo']=$filename;
         }
-        $request['user_id']=Auth::user()->id;
-        Gallery::create($request->except('_token','photo','quality'));
-        $activesateus = 'gallery';
-        $subactivesateus = 'gallery.add';
-        return redirect()->back()->with('message','Image Added Successfully.');
+        Choirteammember::create($request->except('_token','image','quality'));
+        
+        return redirect()->back()->with('message','Member Added Successfully.');
     }
 
     /**
@@ -76,7 +71,7 @@ class GalleryController extends Controller
      */
     public function show($id)
     {
-        
+        //
     }
 
     /**
@@ -87,10 +82,10 @@ class GalleryController extends Controller
      */
     public function edit($id)
     {
-        $activesateus = 'gallery';
-        $subactivesateus = 'gallery.manage';
-        $gallery = Gallery::find($id);
-        return view('back.gallery.edit',compact('activesateus','subactivesateus','gallery'));
+        $activesateus = 'choir';
+        $subactivesateus = 'tm.manage';
+        $member = Choirteammember::find($id);
+        return view('back.choir.tmember.edit',compact('activesateus','subactivesateus','member'));
     }
 
     /**
@@ -102,27 +97,28 @@ class GalleryController extends Controller
      */
     public function update(Request $request, $id)
     {
+
+        $validatedData = $request->validate([
+            'name' => 'required',
+        ]);
+
         //return $request->all();
-        $gallery = Gallery::find($id);
-        if($request->hasFile('photo')){
+        $member = Choirteammember::find($id);
+        if($request->hasFile('image')){
             $q = $request->quality;
-            $file = $request->photo;
+            $file = $request->image;
             $extention = $file->getClientOriginalExtension();
             $filename = rand(111111, 999999) . "." . $extention;
-            Image::make(Input::file('photo'))
-            //->resize(300, 200)
-            ->save('back/assets/img/gallery/'.$filename, $q);
-            $request['image']=$filename;
-
-            if(file_exists('back/assets/img/gallery/'.$gallery->image) && $gallery->image !=null )
+            Image::make(Input::file('image'))->save('back/assets/img/teamMember/'.$filename, $q);
+           //return $request->all();
+            $request['photo']=$filename;
+            if(file_exists('back/assets/img/teamMember/'.$member->image) && $member->image !=null )
             {
-                unlink('back/assets/img/gallery/'.$gallery->image);
+                unlink('back/assets/img/teamMember/'.$member->image);
             }
-
         }
-        
-        $gallery->fill($request->all())->save();
-        return redirect()->back()->with('message','Image Updated Successfully.');
+        $member->fill($request->all())->save();
+        return redirect()->back()->with('message','Updated Successfully.');
     }
 
     /**
@@ -133,13 +129,12 @@ class GalleryController extends Controller
      */
     public function destroy($id)
     {
-        //return $id;
-        $gallery = Gallery::find($id);
-        if(file_exists('back/assets/img/gallery/'.$gallery->image) )
+        $member = Choirteammember::find($id);
+        if(file_exists('back/assets/img/teamMember/'.$member->photo) )
             {
-                unlink('back/assets/img/gallery/'.$gallery->image);
+                unlink('back/assets/img/teamMember/'.$member->photo);
             }
-        $gallery->delete();
+        $member->delete();
         return redirect()->back()->with('message','Slider Deleted Successfully.');
     }
 }

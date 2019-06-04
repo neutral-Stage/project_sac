@@ -29,34 +29,32 @@
                     <thead>
                         <tr>
                             <th>Id</th>
-                            <th>Type</th>
-                            <th>Heading</th>
-                            <th>Caption</th>
+                            <th>Name</th>
+                            <th>Position</th>
                             <th>Image</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
                         @php $i=1 @endphp
-						@foreach($galleries as $gallery)
+						@foreach($members as $member)
                         <tr>
-                            <td>{{ $gallery->id }}</td>
-                            <td>{{ $gallery->type }}</td>
-                            <td>{{ $gallery->heading }}</td>
-                            <td>{{ $gallery->caption }}</td>
+                            <td>{{ $member->id }}</td>
+                            <td>{{ $member->name }}</td>
+                            <td>{{ $member->Position }}</td>
                             <td>
-                            	<img width="150" src="{{ asset('back/assets/img/gallery/'.$gallery->image) }}" alt="{{ $gallery->title_1 }}">
+                            	<img width="150" src="{{ asset('back/assets/img/teamMember/'.$member->photo) }}" alt="{{ $member->name }}">
                             </td>
                             
                             <td>
-                                <a href="{{ route('gallery.edit',$gallery->id) }}" class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-17"></i></a>
+                                <a href="{{ route('team_member.edit',$member->id) }}" class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-17"></i></a>
                                 <a href="#" class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"
                                     onclick="event.preventDefault();
                                     document.getElementById('delete-form{{ $i }}').submit();">
                                     <i class="fa fa-trash font-17"></i></a>
-                                <form id="delete-form{{ $i }}" action="{{ route('gallery.destroy',[$gallery->id]) }}" method="POST" style="display: none;">
-                                    @method('DELETE')
+                                <form id="delete-form{{ $i }}" action="{{ route('team_member.destroy',$member->id) }}" method="POST" style="display: none;">
                                     @csrf
+                                    @method('DELETE')
                                 </form>
                             </td>
                         </tr>
@@ -64,7 +62,7 @@
                         @endforeach
                     </tbody>
                 </table>
-                {{ $galleries->links() }}
+                {{ $members->links() }}
             </div>
         </div>
     </div>
