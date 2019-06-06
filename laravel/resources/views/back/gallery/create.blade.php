@@ -2,11 +2,12 @@
 @section('content')
 	<!--------------=======  Page  Heading ========------------------>
 	<div class="page-heading">
-        <h1 class="page-title">Edit Slider</h1>
+        <h1 class="page-title">Add Gallery Image</h1>
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
                 <a href="index.html"><i class="la la-home font-20"></i></a>
             </li>
+            <li class="breadcrumb-item">Gallery Image for all Module</li>
         </ol>
 
         @if(session()->has('message'))
@@ -23,7 +24,8 @@
 
         </div>
         <div class="ibox-body">
-            <form name="editform" method="post" action="{{ route('slider.update',$slider->id) }}" class="form-group" enctype="multipart/form-data">@csrf
+            <form class="form-group" method="post" action="{{ route('gallery.store') }}"  enctype="multipart/form-data">
+                @csrf
             	<div class="col-12 m-b-20">
                     <div class=" form-inline">
                         <label class="ui-radio ui-radio-primary">
@@ -64,27 +66,21 @@
 
                 </div>
             	<div class="form-group">
-		            <label>First Title</label>
-		            <input name="title_1" value="{{ $slider->title_1 }}" class="form-control input-rounded" type="text" >
-		            @error('title_1')
+		            <label>Heading </label>
+		            <input name="heading" class="form-control input-rounded" type="text" >
+		            @error('heading')
 					    <div class="alert alert-danger">{{ $message }}</div>
 					@enderror
 		        </div>
 
 		        <div class="form-group">
-		            <label>Second(red-bacground) Title</label>
-		            <input name="title_2" value="{{ $slider->title_1 }}" class="form-control input-rounded" type="text">
-                    @error('title_2')
+		            <label>Caption</label>
+		            <input name="caption" class="form-control input-rounded" type="text">
+                    @error('caption')
         			    <div class="alert alert-danger">{{ $message }}</div>
         			@enderror
 		        </div>
-		        <div class="form-group">
-                    <label>Body Text</label>
-                    <textarea name="body_text" class="form-control" rows="3">{{ $slider->body_text }}</textarea>
-                    @error('body_text')
-					    <div class="alert alert-danger">{{ $message }}</div>
-					@enderror
-                </div>
+		        
 
                 <div class="row">
                 	<div class="col-md-12">
@@ -97,16 +93,12 @@
     			            @error('photo')
     						    <div class="alert alert-danger">{{ $message }}</div>
     						@enderror
-                            <h4 class="pl-5 mt-5">Previous Image</h4>
-                            <div class="col-md-12">
-                                <img width="200" src="{{ asset('back/assets/img/slide/'.$slider->image) }}" alt="">
-                            </div>
                 		</div>
                 	</div>
                 	<div class="col-lg-6">
                         <div class="ibox">
                             <div class="ibox-head">
-                                <div class="ibox-title">Selsect Image Quality</div>
+                                <div class="ibox-title">Select Image Quality</div>
                             </div>
                             <div class="ibox-body">
 								<ul>
@@ -128,13 +120,10 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-success btn-block" type="submit"><h2>Update Slider</h2></button>
+                <button class="btn btn-success btn-block" type="submit"><h2>Add Image</h2></button>
             </form>
         </div>
     </div>
-    <script>
-        document.forms['editform'].elements['type'].value='{{ $slider->type }}';
-    </script>
 @endsection
 
 @section('script')

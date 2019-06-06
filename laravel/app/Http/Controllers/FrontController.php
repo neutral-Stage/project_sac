@@ -3,13 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Slider;
 
 class FrontController extends Controller
 {
     public function index()
     {
     	$current = 'true';
-    	return view('front.index',compact('current'));
+        $sliders = Slider::where('type', 'home')->select('title_1','title_2','body_text','image')->get();
+    	return view('front.index',compact('current','sliders'));
     }
     public function history()
     {

@@ -54,6 +54,7 @@ Route::get('/Impact-Nation/GCEC', 'ImpactController@gcec')->name('gcec');
 
 
 Auth::routes();
+Route::get('/home', 'Dashboard\dashboardController@index')->name('home')->middleware('auth');
 
 //Dashboard Route
 Route::prefix('dashboard')->middleware('auth')->group(function () {
@@ -70,9 +71,13 @@ Route::prefix('dashboard/slider')->middleware('auth')->group(function () {
     Route::get('/delete/{id}', 'Dashboard\sliderController@delete')->name('slider.delete');
 });
 
-Route::get('/home', 'Dashboard\dashboardController@index')->name('home')->middleware('auth');
+//Gallery Route
+Route::prefix('dashboard')->middleware('auth')->group(function () {
+	Route::resource('/gallery', 'Dashboard\GalleryController');
+});
 
-Route::post('/photo/store', 'Dashboard\dashboardController@photo')->name('photo');
+
+
     
 
 //user access control

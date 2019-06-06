@@ -24,7 +24,8 @@
 
         </div>
         <div class="ibox-body">
-            <form method="post" action="{{ route('slider.store') }}" class="form-group" enctype="multipart/form-data">@csrf
+            <form class="form-group" method="post" action="{{ route('slider.store') }}"  enctype="multipart/form-data">
+                @csrf
             	<div class="col-12 m-b-20">
                     <div class=" form-inline">
                         <label class="ui-radio ui-radio-primary">
