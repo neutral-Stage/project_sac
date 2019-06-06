@@ -19,10 +19,10 @@
 			<div class="row clearfix">
 			
                 <!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn">
+                <div class="team-block-two col-md-2 col-sm-6 col-xs-12 wow fadeIn">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-5.jpg" alt=""></figure>
+                            <figure><img src="{{ asset( 'assets/front') }}/images/home/director.jpg" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -31,110 +31,17 @@
                             </ul>
                         </div>
                         <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">George Marvis</a></h4>
-                            <span class="designation">Doctor</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
+                            <h4 class="name"><a href="team-single.html">Philip B. Sarkar(Mridul)</a></h4>
+                            <span class="designation">Chairman and Director</span>
+                            <div class="text">Philip B. Sarkar is the full time minister of The Sacrifice Trust. He is one of the pioneer founders of Sacrifice Ministry. He is a composer, lyricist, module developer, worship leader and a Bible teacher.</div>
                             <div class="link-box">
                                 <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="400ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-6.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">Sandy Nattasha</a></h4>
-                            <span class="designation">Founder</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                            <div class="link-box">
-                                <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="800ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-7.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">John Dou</a></h4>
-                            <span class="designation">Manager</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                            <div class="link-box">
-                                <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1200ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-8.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">Jervis Penelope</a></h4>
-                            <span class="designation">Cooker</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                            <div class="link-box">
-                                <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				
-				<!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-9.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">Carmen Moore</a></h4>
-                            <span class="designation">Cooker</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                            <div class="link-box">
-                                <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				
-				<!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="400ms">
+                <div class="team-block-two col-md-2 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="400ms">
                     <div class="inner-box">
                         <div class="image-box">
                             <figure><img src="{{ asset( 'assets/front') }}/images/home/bm_kallol.jpg" alt=""></figure>
@@ -146,32 +53,9 @@
                             </ul>
                         </div>
                         <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">Jane Smith</a></h4>
-                            <span class="designation">founder</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                            <div class="link-box">
-                                <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				
-				<!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="800ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-11.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html"> Fancy Murray</a></h4>
-                            <span class="designation">manager</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
+                            <h4 class="name"><a href="team-single.html">Kallal Chowdhury</a></h4>
+                            <span class="designation">Vice Chairman</span>
+                            <div class="text">Kallal Chowdhury is one of the pioneer members of sacrifice ministry. He is a very famous lyrics writer and tuner of Christian songs which has become a blessing in our churches. He is serving this ministry as a volunteer for last 17 years.</div>
                             <div class="link-box">
                                 <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
                             </div>
@@ -180,10 +64,10 @@
                 </div>
                 
                 <!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1200ms">
+                <div class="team-block-two col-md-2 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="400ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-12.jpg" alt=""></figure>
+                            <figure><img src="{{ asset( 'assets/front') }}/images/home/bm_sukhen.jpg" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -192,21 +76,21 @@
                             </ul>
                         </div>
                         <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">Boom Morly</a></h4>
-                            <span class="designation">Teacher</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
+                            <h4 class="name"><a href="team-single.html">Sukhen Biswas</a></h4>
+                            <span class="designation">Secretary</span>
+                            <div class="text">Sukhen Biswas is serving in a leading children ministry (Generation Bangladesh) in Bangladesh. He has a social and spiritual impact throughout the country and internationally regarding bringing children in front of God. He is a motivational speaker and counselor.</div>
                             <div class="link-box">
                                 <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn">
+
+                 <!-- Team Block Two -->
+                <div class="team-block-two col-md-2 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="400ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-13.jpg" alt=""></figure>
+                            <figure><img src="{{ asset( 'assets/front') }}/images/home/Happi.jpg" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -215,21 +99,21 @@
                             </ul>
                         </div>
                         <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">Talon Harmonie</a></h4>
-                            <span class="designation">Teacher</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
+                            <h4 class="name"><a href="team-single.html">Silas Happi Sircar</a></h4>
+                            <span class="designation">Treasurer</span>
+                            <div class="text">Silas Happi Sircar is from Youth with a Mission. He is leading WDTS in Bangladesh. Silas’ father Dr. Rev. Simon H Sircar was our Chief Adviser. A man of God and have a heart of discipleship.
+                        </div>
                             <div class="link-box">
                                 <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
                 <!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="400ms">
+                <div class="team-block-two col-md-2 col-sm-6 col-xs-12 wow fadeIn">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-14.jpg" alt=""></figure>
+                            <figure><img src="{{ asset( 'assets/front') }}/images/home/bm_kisor.png" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -238,55 +122,9 @@
                             </ul>
                         </div>
                         <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">Jane Smith</a></h4>
-                            <span class="designation">Doctor</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                            <div class="link-box">
-                                <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="800ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-15.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">Barbara Maddox</a></h4>
-                            <span class="designation">cooker</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                            <div class="link-box">
-                                <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Team Block Two -->
-                <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1200ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure><img src="{{ asset( 'assets/front') }}/images/resource/team-16.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="lower-content">
-                            <h4 class="name"><a href="team-single.html">Murray Fancy</a></h4>
-                            <span class="designation">Volunter</span>
-                            <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
+                            <h4 class="name"><a href="team-single.html">Pastor Francis Kisor</a></h4>
+                            <span class="designation">Member</span>
+                            <div class="text">Pastor Francis Kisor is the founder Director of Bijoy Bangladesh Children Ministries. Pastor Francis is very good speaker in this new generation. Have a heart for street and slam children. He is a very good friend of this ministry.</div>
                             <div class="link-box">
                                 <a href="team-single.html"><i class="fa fa-angle-right"></i></a>
                             </div>

@@ -25,7 +25,7 @@
                         data-x="['left','left','left','left']"
                         data-y="['middle','middle','middle','middle']"
                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                           <h4>Love for the Underprivileged</h4>
+                           <h4>ROCKteens</h4>
                         </div>
 
                         <div class="tp-caption" 
@@ -44,7 +44,7 @@
                         data-x="['left','left','left','left']"
                         data-y="['middle','middle','middle','middle']"
                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>Children Service</h2>
+                            <h3>Teenagers Discipleship</h3>
                         </div>
 						
 						<div class="tp-caption" 
@@ -63,7 +63,7 @@
                         data-x="['left','left','left','left']"
                         data-y="['middle','middle','middle','middle']"
                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="text">This program is for helping distressed and underprivileged children. Standing beside the underprivileged people is our main desire.In every year we try to help the underprivileged people through warm cloths, blankets and with other things.</div>
+                            <div class="text">ROCKteens is a fellowship of teenagers. Biblical base of the fellowship is ‘Let the children come to me’. (Luke 18:16).</div>
                         </div>
                         
                         <div class="tp-caption" 

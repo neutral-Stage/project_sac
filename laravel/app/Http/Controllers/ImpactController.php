@@ -23,4 +23,9 @@ class ImpactController extends Controller
     	$impact = 'true';
     	return view('front.impact.gcec',compact('impact')); 
     }
+    public function sol()
+    {
+        $impact = 'true';
+        return view('front.impact.sol',compact('impact')); 
+    }
 }

@@ -16,5 +16,16 @@ class SowController extends Controller
     {
     	$pro = 'true';
     	return view('front.sow.wme',compact('pro'));
+    } 
+
+    public function imp_bn()
+    {
+        $imp_bn = 'true';
+        return view('front.sow.imp_bn',compact('imp_bn'));
+    }
+    public function imp_in()
+    {
+        $imp_in = 'true';
+        return view('front.sow.imp_in',compact('imp_in'));
     }
 }

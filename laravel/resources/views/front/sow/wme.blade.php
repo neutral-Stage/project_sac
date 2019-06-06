@@ -25,7 +25,7 @@
                     data-x="['left','left','left','left']"
                     data-y="['middle','middle','middle','middle']"
                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                       <h4>Sacrifice Choir</h4>
+                       <h4>School Of Worship</h4>
                     </div>
 
                     <div class="tp-caption" 
@@ -210,7 +210,7 @@
                     data-x="['right','right','right','left']"
                     data-y="['middle','middle','middle','middle']"
                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                        <h2>Sacrifice Choir</h2>
+                        <h2>School Of Worship</h2>
                     </div>
                     
                     <div class="tp-caption" 
@@ -262,9 +262,8 @@
  <section class="video-section-two" style="background-image: url({{asset('assets/front')}}/images/resource/video-image-1.jpg);">
     <div class="inner-box">
         <div class="content-box">
-            <h4> Welcome to Sacrifice Choir <br> Since 2000</h4>
-
-            <a href="{{asset('assets/front')}}/https://www.youtube.com/watch?v=Cr7pbRvet-8" class="link" data-fancybox="video" data-caption=""><span class="icon fa fa-play"></span></a>
+            <h4> Welcom to our International <br> Senior Citizen Program Since 1985</h4>
+            <a href="{{asset('assets/front')}}/https://www.youtube.com/watch?v=Fvae8nxzVz4" class="link" data-fancybox="video" data-caption=""><span class="icon fa fa-play"></span></a>
         </div>
     </div>
 </section>
@@ -274,7 +273,7 @@
 <section class="team-section-two alternate">
     <div class="auto-container">
         <div class="sec-title text-center">
-            <h2>Meet Our Choir Members</h2>
+            <h2>Meet Our Volunteers</h2>
         </div>
 
         <div class="row clearfix">
