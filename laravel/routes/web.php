@@ -34,7 +34,14 @@ Route::get('/choir-testimony','ChoirController@testimony')->name('choir-testimon
 
 //SOW
 Route::get('/sow','SowController@index')->name('sow');
+Route::get('/wme-course','SowController@wme')->name('wme');
+Route::get('/impact-story/bangladesh','SowController@imp_bn')->name('imp_bn');
+Route::get('/impact-story/india','SowController@imp_in')->name('imp_in');
 
+//Arts
+Route::get('/live-drama','ArtsController@index')->name('live_drama');
+Route::get('/ttc','ArtsController@ttc')->name('ttc');
+Route::get('/case','ArtsController@case')->name('case');
 //Volenteer
 Route::get('/volunteer', 'VolController@index')->name('volunteer');
 // Route::group(['prefix'=>'home'],function(){
@@ -50,6 +57,7 @@ Route::get('/LFU-children-activities', 'LFUController@child')->name('child');
 Route::get('/Impact-Nation/NPWC', 'ImpactController@npwc')->name('npwc');
 Route::get('/Impact-Nation/RT', 'ImpactController@rt')->name('rt');
 Route::get('/Impact-Nation/GCEC', 'ImpactController@gcec')->name('gcec');
+Route::get('/Impact-Nation/SOL', 'ImpactController@sol')->name('sol');
 
 
 
