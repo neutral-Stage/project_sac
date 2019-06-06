@@ -42,8 +42,7 @@ class sliderController extends Controller
         }
         $request['user_id']=Auth::user()->id;
         Slider::create($request->except('_token','photo','quality'));
-    	$activesateus = 'slide';
-    	$subactivesateus = 'slide.add';
+    	
 		return redirect()->back()->with('message','Slider Added Successfully.');
     }
 

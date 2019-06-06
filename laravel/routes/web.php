@@ -76,6 +76,22 @@ Route::prefix('dashboard')->middleware('auth')->group(function () {
 	Route::resource('/gallery', 'Dashboard\GalleryController');
 });
 
+//Upcoming Event//
+Route::prefix('dashboard')->middleware('auth')->group(function () {
+	Route::resource('/event/upcoming', 'Dashboard\UpcomingEventController');
+	Route::resource('/event/image', 'Dashboard\UcEventImageController');
+	Route::get('/event/image/{id}/form', 'Dashboard\UcEventImageController@create')->name('event.image.create');
+});
+
+//Dashboard Choir//
+Route::prefix('dashboard')->middleware('auth')->group(function () {
+	Route::get('/choir-vdo/create', 'Dashboard\ChoirController@video_create')->name('choir.video.create');
+	Route::post('/choir-vdo/update', 'Dashboard\ChoirController@video_update')->name('choir.video.update');
+
+	//choir member
+	Route::resource('/choir/team_member', 'Dashboard\ChoirMemberController');
+});
+
 
 
     
