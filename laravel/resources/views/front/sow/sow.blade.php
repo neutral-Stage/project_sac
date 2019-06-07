@@ -269,7 +269,7 @@
 </section>
 <!-- End Video Section -->
 
-<!-- Team Section -->
+{{--  <!-- Team Section -->
 <section class="team-section-two alternate">
     <div class="auto-container">
         <div class="sec-title text-center">
@@ -371,7 +371,7 @@
         </div>
     </div>
 </section>
-<!--End Team Section -->
+<!--End Team Section -->  --}}
 
 <!-- Gallery Section -->
 <section class="gallery-section">
@@ -602,218 +602,131 @@
 <section class="why-choose-us">
     <div class="auto-container">
         <div class="row clearfix">
-            <div class="service-column col-md-7 col-sm-12 col-xs-12">
+            <div class="service-column col-md-12 col-sm-12 col-xs-12">
                 <div class="inner-column">    
                     <div class="sec-title">
-                        <h2>Who We Are</h2>
-                        <div class="text">Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.  management inside of workflows to establish a framework. Taking seamless key</div>
+                        <h2> School of Worship </h2>
+                            <div class="text">
+                               School of Worship (SOW) is a basic course that works as a praise and worship training, making choir leader and creating discipleship. We have always shared our materials with various seminary, churches and organizations. With God’s glory along with our faith, we have an office which is nationally financed. By serving in Bengal’s churches we thank our heavenly father for observing a tremendous flow of praise and worship throughout the country.
+                            </div>
+                            <div class="text">
+                                SOW has started its journey in 2006. In 2005, on the verge of serving Holy Spirit has sowed this seed. It is significant that “School of Worship” is a unique answer of one and a half months prayer. In the painful part of ministry God’s spirit has made us realize that to bring life in the dying churches of our country it is mandatory to give appropriate learning about praise and worship. 
+
+
+                            </div>
+                            <div class="text">
+                                Without preparing any proper manual only with a simple note in hand in 2006 we have started praise and worship training. At the very beginning 48 people has responded to the training and with immense excitement 32 students completed this training with success! From this we have understood that God wants to carry on this training in elaborated way. 
+                            </div>
                     </div>
-                    <div class="row clearfix">
-                        <!-- Service Block Three -->
-                        <div class="service-block-three col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-pay"></span></div>
-                                <h3><a href="{{asset('assets/front')}}/department.html">Make Donation</a></h3>
-                                <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
-                            </div>
-                        </div>
 
-                        <!-- Service Block Three -->
-                        <div class="service-block-three col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-system"></span></div>
-                                <h3><a href="{{asset('assets/front')}}/department.html">Give Scholarship</a></h3>
-                                <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
-                            </div>
-                        </div>
-
-                        <!-- Service Block Three -->
-                        <div class="service-block-three col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-tshirt"></span></div>
-                                <h3><a href="{{asset('assets/front')}}/department.html">Become a Volunteer</a></h3>
-                                <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
-                            </div>
-                        </div>
-
-                        <!-- Service Block Three -->
-                        <div class="service-block-three col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-teamwork"></span></div>
-                                <h3><a href="{{asset('assets/front')}}/department.html">Support our People</a></h3>
-                                <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             
-            <div class="accordion-column col-md-5 col-sm-12 col-xs-12">
-                <div class="inner-column">
-                    <div class="sec-title">
-                        <h2>Why Choose us</h2>
+            <div class="feature-column col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        
+                            <div class="text">The key verse of SOW is Colossians 1:28. It says “He is the one we proclaim, admonishing and teaching everyone with all wisdom, so that we may present everyone fully mature in Christ.”</div>
+                            
+                        
                     </div>
-
-                    <!--Accordion Box-->
-                    <ul class="accordion-box">
-                        <!--Block-->
-                        <li class="accordion block active-block">
-                            <div class="acc-btn active">Best Pricing Guarantee</div>
-                            <div class="acc-content current">
-                                <div class="content">
-                                    <p>Operational change management inside of workflows to establish a framework. Taking seamless key performance the indicators offline to maximise the long tail. management inside of workflows to establish a framework. Taking seamless key.</p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">No Goal Requirements</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Operational change management inside of workflows to establish a framework. Taking seamless key performance the indicators offline to maximise the long tail. management inside of workflows to establish a framework. Taking seamless key.</p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">Maximize tax advantages for your gift</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Users after installed base benefits. Dramaticall visualize customer directed convergence without revolutionary ROI.Efficiently unleash cross-media information without cross-media value. Quickly maximiz timely deliverables for real-time schemas.</p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">Most Trusted</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Users after installed base benefits. Dramaticall visualize customer directed convergence without revolutionary ROI.Efficiently unleash cross-media information without cross-media value. Quickly maximiz timely deliverables for real-time schemas.</p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">Our experience</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Users after installed base benefits. Dramaticall visualize customer directed convergence without revolutionary ROI.Efficiently unleash cross-media information without cross-media value. Quickly maximiz timely deliverables for real-time schemas.</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul><!--End Accordion Box-->  
-                </div>
             </div>
+
+            <!-- Info Column -->
+                <div class="info-column col-md-12 col-sm-12 col-xs-12">
+                   <div class="row clearfix">
+                            <!-- Feature BLock -->
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <p>Based on this verse SOW places its importance in 4 policies.</p>
+                                    
+                                <div class="sac">
+                                   <ul>
+                                       <li >1.	Proclaiming: God’s glory by praise and worship (Psalms 107:22) and proclaiming Christ’s gospel.</li>
+                                       <li>2.	Admonishing: Living in the lord (Romans 13:12-13) and give awareness to churches – the body of Christ about the practice of righteousness (1 Timothy 4:8)</li>
+                                       <li>3.	Teaching: For building the churches using God’s word (2 Timothy 3:16-17) for giving sound doctrine (Titus 1:9 last part).</li>
+                                       <li>4.   Perfect in Christ: Sacred living in Christ (Romans 12:2).</li>
+                                       
+                                   </ul>                                 
+ 
+                                </div>
+                            </div>
+
+                           
+                        </div>
+                </div>
         </div>
     </div>
 </section>
 <!-- End Why Choose Us -->
 
 <!-- Work Section -->
-<section class="work-section-two">
-    <div class="row clearfix">
-        <!-- Work Block -->
-        <div class="work-block-two col-md-4 col-sm-6 col-xs-12">
-            <div class="inner-box">
-                <h4><a href="{{asset('assets/front')}}/causes-single.html">Give Donation</a></h4>
-                <div class="text">Objectively innovate empowered tured products whereas parallel</div>
+    <section class="work-section">
+        <div class="inner-container">
+            <div class="row clearfix">
+                <!-- Work Block -->
+                <div class="work-block col-md-4 col-sm-6 col-xs-12 wow fadeInUp">
+                    <div class="inner-box" style="background-image: url({{ asset( 'assets/front') }}/images/choir/found.JPG);">
+                        <h3><a href="{{ asset( 'assets/front') }}/services.html">Foundational Course </a></h3>
+                        <div class="text">This course is specially developed with basic level of understanding about praise & worship. Course length 3 days. In this training we lead at least 12 sessions for participants. We facilitate foundational teaching about praise & worship.After completion of this foundational course, we give a certificate for our participants.</div>
+                        <div class="btn-box"><a href="{{ asset( 'assets/front') }}/services.html" class="theme-btn btn-style-three">Read More</a></div>
+                    </div>
+                </div>
+
+                <!-- Work Block -->
+                <div class="work-block col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="600ms">
+                    <div class="inner-box" style="background-image: url({{ asset( 'assets/front') }}/images/choir/basic.JPG);">
+                        <h3><a href="{{ asset( 'assets/front') }}/services.html"> Basic course </a></h3>
+                        <div class="text">This course is specially developed for churches and seminaries. Course length maximum is 5 days. In this training we lead at least 20 sessions for participants.We facilitate some basic teaching about praise & worship within these 20 sessions which will be followed from our worship manual. After completion of this 5 days course, we give a certificate for our participants. </div>
+                        <div class="btn-box"><a href="{{ asset( 'assets/front') }}/services.html" class="theme-btn btn-style-three">Read More</a></div>
+                    </div>
+                </div>
+
+                <!-- Work Block -->
+                <div class="work-block col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="1200ms">
+                    <div class="inner-box" style="background-image: url({{ asset( 'assets/front') }}/images/choir/disp.JPG);">
+                        <h3><a href="{{ asset( 'assets/front') }}/services.html">Discipleship Course </a></h3>
+                        <div class="text">Discipleship Course is the most effective course of SOW.  This course is developed for long term discipleship for being a follower and worshiper of Jesus Christ. This course content 48 sessions in 12 days and 3 days for out-reach. We nurture the whole process for discipleship within 15 days.</div>
+                        <div class="btn-box"><a href="{{ route( 'volunteer') }}" class="theme-btn btn-style-three">Read More</a></div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+    <!--End Work Section -->
 
-        <!-- Work Block -->
-        <div class="work-block-two col-md-4 col-sm-6 col-xs-12">
-            <div class="inner-box">
-                <h4><a href="{{asset('assets/front')}}/causes-single.html">Give Scholarship</a></h4>
-                <div class="text">Objectively innovate empowered tured products whereas parallel</div>
-            </div>
-        </div>
 
-        <!-- Work Block -->
-        <div class="work-block-two col-md-4 col-sm-6 col-xs-12">
-            <div class="inner-box">
-                <h4><a href="{{asset('assets/front')}}/causes-single.html">Adopt a Child</a></h4>
-                <div class="text">Objectively innovate empowered tured products whereas parallel</div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Work Section -->
-
-<!-- Testimonial Section Four -->
-<section class="testimonial-section-four">
+<!-- Why Choose Us -->
+<section class="why-choose-us">
     <div class="auto-container">
-        <div class="sec-title text-center">
-            <h2>Our Client Say</h2>
-        </div>
-    </div>
-    <div class="testimonial-carousel-three owl-carousel owl-theme">
-        <!-- Testimonial Block -->
-        <div class="testimonial-block-four">
-            <div class="inner-box">
-                <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-4.jpg" alt=""></div>
-                <div class="text">Strategy foster collaborative thinking to further the overall value proposition. organically grow”</div>
-                <div class="info">
-                    <span class="name">Amanda Stephens</span>
-                    <span class="designation">Donator</span>
-                </div>
-            </div>
-        </div>
+        <div class="row clearfix">
+            <div class="service-column col-md-12 col-sm-12 col-xs-12">
+                <div class="inner-column">    
+                    <div class="sec-title">
+                        <h2>Testimony:</h2>
+                            <div class="text">
+                                Before receiving Jesus my life was totally different. I hadn’t much attention to religion. I was awfully envious of other’s possessions. I lied. I didn’t respect the elders. I was also unwilling to go to the church. Even I didn’t obey my pastor and teachers.I didn’t know much about Jesus, although I was involved with the church. I was mischievous in the church. 
+                            </div>
+                            <div class="text">
+                                Before receiving Jesus my life was totally different. I hadn’t much attention to religion. I was awfully envious of other’s possessions. I lied. I didn’t respect the elders. I was also unwilling to go to the church. Even I didn’t obey my pastor and teachers.I didn’t know much about Jesus, although I was involved with the church. I was mischievous in the church. 
+                            </div>
+                            <div class="text">
+                                I received Jesus as my personal savior on the 14th September, 2011. After knowing Him I asked my dear friend Jesus to forgive me. He has relieved me from my sin and I have been born again.  
+                            </div>
+                            <div class="text">
+                                After getting Jesus I have started my new life. I have taken Him as my friend. I am not disobedient any more. Now I go to the church regularly. I obey my pastor and teachers.   
+                            </div>
+                            <div class="text">
+                                I read Bible daily. Now I don’t make dirty discussions any more. I thank God because after receiving Jesus as my friend He has transformed my life.   
+                            </div>
 
-        <!-- Testimonial Block -->
-        <div class="testimonial-block-four">
-            <div class="inner-box">
-                <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-5.jpg" alt=""></div>
-                <div class="text">Strategy foster collaborative thinking to further the overall value proposition. organically grow”</div>
-                <div class="info">
-                    <span class="name">Nattasha</span>
-                    <span class="designation">Donator</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Testimonial Block -->
-        <div class="testimonial-block-four">
-            <div class="inner-box">
-                <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-6.jpg" alt=""></div>
-                <div class="text">Strategy foster collaborative thinking to further the overall value proposition. organically grow”</div>
-                <div class="info">
-                    <span class="name">Amanda Stephens</span>
-                    <span class="designation">Donator</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Testimonial Block -->
-        <div class="testimonial-block-four">
-            <div class="inner-box">
-                <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-7.jpg" alt=""></div>
-                <div class="text">Strategy foster collaborative thinking to further the overall value proposition. organically grow”</div>
-                <div class="info">
-                    <span class="name">Amanda Stephens</span>
-                    <span class="designation">Donator</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Testimonial Block -->
-        <div class="testimonial-block-four">
-            <div class="inner-box">
-                <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-6.jpg" alt=""></div>
-                <div class="text">Strategy foster collaborative thinking to further the overall value proposition. organically grow”</div>
-                <div class="info">
-                    <span class="name">Nattasha</span>
-                    <span class="designation">Donator</span>
+                            <b>-Rania Das, Church of God, Kakina, Lalmonirhat</b>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Testimonial Section -->
-
+<!-- End Why Choose Us -->
 <!--Clients Section-->
 <section class="clients-section" style="background-image: url({{asset('assets/front')}}/images/background/10.jpg);">
     <div class="sponsors-outer">

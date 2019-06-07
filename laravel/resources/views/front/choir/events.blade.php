@@ -1,7 +1,7 @@
 @extends('front.layouts.master')
 @section('content')
      <!--Page Title-->
-     <section class="page-title" style="background-image:url({{asset('assets/front')}}/images/background/17.jpg);">
+     {{--  <section class="page-title" style="background-image:url({{asset('assets/front')}}/images/background/17.jpg);">
         <div class="auto-container">
             <div class="title-box">
                 <h1>Events</h1>
@@ -11,9 +11,31 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section>  --}}
     <!--End Page Title-->
-	
+    
+    <!-- Comming Soon -->
+      <section class="coming-soon" style="background-image: url({{asset('assets/front')}}/images/background/11.jpg);">
+        <div class="auto-container">
+            <!-- Title -->
+            <div class="title">
+                <h2>Next Event</h2>
+                <div class="text">Experience god’s presence helping people who need it..</div>        
+            </div>
+
+            <!-- Countdown -->
+            <div class="timer">
+                <div class="cs-countdown" data-countdown="10/20/2019 05:06:59"></div>            
+            </div>
+
+            {{--  <div class="link-box">
+                <a href="event-calendar.html" class="theme-btn btn-style-one">Calender</a>
+                <a href="contact.html" class="theme-btn btn-style-two">Sign Up</a>
+            </div>  --}}
+        </div>
+    </section>
+    <!--End Comming Soon -->
+
     <!--Events Grid Section-->
     <section class="events-grid-section">
     	<div class="auto-container">

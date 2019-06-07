@@ -258,120 +258,55 @@
 </section>
 <!--End Main Slider-->
 
- <!-- Video Section -->
- <section class="video-section-two" style="background-image: url({{asset('assets/front')}}/images/resource/video-image-1.jpg);">
-    <div class="inner-box">
-        <div class="content-box">
-            <h4> Welcom to our International <br> Senior Citizen Program Since 1985</h4>
-            <a href="{{asset('assets/front')}}/https://www.youtube.com/watch?v=Fvae8nxzVz4" class="link" data-fancybox="video" data-caption=""><span class="icon fa fa-play"></span></a>
-        </div>
-    </div>
-</section>
-<!-- End Video Section -->
+ 
+<!-- Become Volunteer -->
+    <section class="become-volunteer alternate">
+        <div class="auto-container">
 
-<!-- Team Section -->
-<section class="team-section-two alternate">
-    <div class="auto-container">
-        <div class="sec-title text-center">
-            <h2>Meet Our Volunteers</h2>
-        </div>
-
-        <div class="row clearfix">
-            <!-- Team Block Two -->
-            <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeInUp">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure><img src="{{asset('assets/front')}}/images/resource/team-1.jpg" alt=""></figure>
-                        <ul class="social-links">
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="lower-content">
-                        <h4 class="name"><a href="{{asset('assets/front')}}/team-single.html">Jane Mcallister</a></h4>
-                        <span class="designation">Donater</span>
-                        <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                        <div class="link-box">
-                            <a href="{{asset('assets/front')}}/team-single.html"><i class="fa fa-angle-right"></i></a>
+            <div class="feature-column col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <h2>Worship Missions Ethno-doxology</h2>
+                            <div class="text" style="font-size: 20px;line-height: 2;">Worship made a revolt around the country since a decade. Not only this country but around the world it’s became a revolution. Initially it was limited to sing song but through the result of different researches and mission now these are being used as tools to reaching out different people, group and nations. </div>
+                            <div class="text" style="font-size: 20px;line-height: 2;">The famous theologian and author John Piper said, “Missions is not the ultimate goal of the Church. Worship is. Missions exist because worship doesn’t. Worship is ultimate, not missions, because God is ultimate, not man. When this age is over, and the countless millions of the redeemed fall on their faces before the throne of God, missions will be no more. It is a temporary necessity. But worship abides forever.”</div>
                         </div>
+
+                        
                     </div>
                 </div>
-            </div>
 
-            <!-- Team Block Two -->
-            <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="400ms">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure><img src="{{asset('assets/front')}}/images/resource/team-2.jpg" alt=""></figure>
-                        <ul class="social-links">
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="lower-content">
-                        <h4 class="name"><a href="{{asset('assets/front')}}/team-single.html">Sandy Nattasha</a></h4>
-                        <span class="designation">Founder</span>
-                        <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                        <div class="link-box">
-                            <a href="{{asset('assets/front')}}/team-single.html"><i class="fa fa-angle-right"></i></a>
-                        </div>
+                <!-- Image column -->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column wow fadeIn">
+                        <figure><img src="{{ asset( 'assets/front') }}/images/sow/wme.JPG" alt=""></figure>
                     </div>
                 </div>
-            </div>
 
-            <!-- Team Block Two -->
-            <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="800ms">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure><img src="{{asset('assets/front')}}/images/resource/team-3.jpg" alt=""></figure>
-                        <ul class="social-links">
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="lower-content">
-                        <h4 class="name"><a href="{{asset('assets/front')}}/team-single.html">John Dou</a></h4>
-                        <span class="designation">Manager</span>
-                        <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                        <div class="link-box">
-                            <a href="{{asset('assets/front')}}/team-single.html"><i class="fa fa-angle-right"></i></a>
+            <div class="feature-column col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            
+                            <div class="text" style="font-size: 20px;line-height: 2;">The worship is close relationship with God. Having heart bit of God. God’s heart bit remembering us His love to all nations. Around the world out of 16,500 nations 6685 nations never reached or heard the Gospel. The remaining nations have their own languages, cultures and elements of traditions. In order to establish worship movement and glorify God, we need to understand the heart language of all remaining nations.</div>
+                            <div class="text" style="font-size: 20px;line-height: 2;">Since couple of years a new word is using towards worship uprising. This is a new word in our country. The word is ethno doxology. Ethno means peoples and doxology is praise. It’s hard to hear. To make it simplify it can be considered ‘Urges the nations to make worship through their own language.’ </div>
                         </div>
+
+                        
                     </div>
                 </div>
-            </div>
 
-            <!-- Team Block Two -->
-            <div class="team-block-two col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="1200ms">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure><img src="{{asset('assets/front')}}/images/resource/team-4.jpg" alt=""></figure>
-                        <ul class="social-links">
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="{{asset('assets/front')}}/#"><i class="fa fa-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="lower-content">
-                        <h4 class="name"><a href="{{asset('assets/front')}}/team-single.html">Boom Morly</a></h4>
-                        <span class="designation">Donater</span>
-                        <div class="text">Operational change management inside of workflows to establish a framework. Taking seamless </div>
-                        <div class="link-box">
-                            <a href="{{asset('assets/front')}}/team-single.html"><i class="fa fa-angle-right"></i></a>
-                        </div>
+                <!-- Image column -->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column wow fadeIn">
+                        <figure><img src="{{ asset( 'assets/front') }}/images/sow/wme2.JPG" alt=""></figure>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End Team Section -->
+
+            
+
+               <!--  Info Column -->
+                
+    </section>
+    <!--End Become Volunteer -->
 
 <!-- Gallery Section -->
 <section class="gallery-section">
@@ -509,328 +444,17 @@
 </section>
 <!-- End Gallery Section -->
 
-<!-- Event Section -->
-<section class="event-section style-two">
-    <div class="title-box" style="background-image: url({{asset('assets/front')}}/images/background/9.jpg);">
-        <div class="auto-container">
-            <div class="sec-title light text-center">
-                <h2>UpComing Events</h2>
-            </div>
-        </div>
-    </div>
 
-    <div class="content-box">
-        <div class="auto-container">
-            <div class="event-carousel owl-carousel owl-theme">
-                <!-- Evend Block -->
-                <div class="event-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="{{asset('assets/front')}}/event-single.html"><img src="{{asset('assets/front')}}/images/resource/event-9.jpg" alt=""></a></div>
-                            <span class="date"><strong>04</strong>May</span>
-                        </div>
-                        <div class="lower-content">
-                            <ul class="info">
-                                <li><i class="fa fa-clock-o"></i>at 5.00 pm - 7.30 pm</li>
-                                <li><i class="fa fa-map-marker"></i>25 Newyork City</li>
-                            </ul>
-                            <h3><a href="{{asset('assets/front')}}/event-single.html">Let ‘s walk the Genuine Care Wins</a></h3>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Evend Block -->
-                <div class="event-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="{{asset('assets/front')}}/event-single.html"><img src="{{asset('assets/front')}}/images/resource/event-10.jpg" alt=""></a></div>
-                            <span class="date"><strong>04</strong>May</span>
-                        </div>
-                        <div class="lower-content">
-                            <ul class="info">
-                                <li><i class="fa fa-clock-o"></i>at 5.00 pm - 7.30 pm</li>
-                                <li><i class="fa fa-map-marker"></i>25 Newyork City</li>
-                            </ul>
-                            <h3><a href="{{asset('assets/front')}}/event-single.html">The support of Elder Care coordinator</a></h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Evend Block -->
-                <div class="event-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="{{asset('assets/front')}}/event-single.html"><img src="{{asset('assets/front')}}/images/resource/event-11.jpg" alt=""></a></div>
-                            <span class="date"><strong>04</strong>May</span>
-                        </div>
-                        <div class="lower-content">
-                            <ul class="info">
-                                <li><i class="fa fa-clock-o"></i>at 5.00 pm - 7.30 pm</li>
-                                <li><i class="fa fa-map-marker"></i>25 Newyork City</li>
-                            </ul>
-                            <h3><a href="{{asset('assets/front')}}/event-single.html">Donate from poor Senior Citizen</a></h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Evend Block -->
-                <div class="event-block">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="{{asset('assets/front')}}/event-single.html"><img src="{{asset('assets/front')}}/images/resource/event-10.jpg" alt=""></a></div>
-                            <span class="date"><strong>04</strong>May</span>
-                        </div>
-                        <div class="lower-content">
-                            <ul class="info">
-                                <li><i class="fa fa-clock-o"></i>at 5.00 pm - 7.30 pm</li>
-                                <li><i class="fa fa-map-marker"></i>25 Newyork City</li>
-                            </ul>
-                            <h3><a href="{{asset('assets/front')}}/event-single.html">The support of Elder Care coordinator</a></h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="link-box">
-                <a href="{{asset('assets/front')}}/event-single.html" class="theme-btn btn-style-four">More Event</a>
-            </div>
+<!-- Video Section -->
+ <section class="video-section-two" style="background-image: url({{asset('assets/front')}}/images/resource/video-image-1.jpg);">
+    <div class="inner-box">
+        <div class="content-box">
+            <h4> Welcom to our International <br> Senior Citizen Program Since 1985</h4>
+            <a href="{{asset('assets/front')}}/https://www.youtube.com/watch?v=Fvae8nxzVz4" class="link" data-fancybox="video" data-caption=""><span class="icon fa fa-play"></span></a>
         </div>
     </div>
 </section>
-<!--End Event Section -->
+<!-- End Video Section -->
 
-<!-- Why Choose Us -->
-<section class="why-choose-us">
-    <div class="auto-container">
-        <div class="row clearfix">
-            <div class="service-column col-md-7 col-sm-12 col-xs-12">
-                <div class="inner-column">    
-                    <div class="sec-title">
-                        <h2>Who We Are</h2>
-                        <div class="text">Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.  management inside of workflows to establish a framework. Taking seamless key</div>
-                    </div>
-                    <div class="row clearfix">
-                        <!-- Service Block Three -->
-                        <div class="service-block-three col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-pay"></span></div>
-                                <h3><a href="{{asset('assets/front')}}/department.html">Make Donation</a></h3>
-                                <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
-                            </div>
-                        </div>
-
-                        <!-- Service Block Three -->
-                        <div class="service-block-three col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-system"></span></div>
-                                <h3><a href="{{asset('assets/front')}}/department.html">Give Scholarship</a></h3>
-                                <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
-                            </div>
-                        </div>
-
-                        <!-- Service Block Three -->
-                        <div class="service-block-three col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-tshirt"></span></div>
-                                <h3><a href="{{asset('assets/front')}}/department.html">Become a Volunteer</a></h3>
-                                <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
-                            </div>
-                        </div>
-
-                        <!-- Service Block Three -->
-                        <div class="service-block-three col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-teamwork"></span></div>
-                                <h3><a href="{{asset('assets/front')}}/department.html">Support our People</a></h3>
-                                <div class="text">Keeping your eye on the ball while performing a deep dive on the up mentality to derive</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="accordion-column col-md-5 col-sm-12 col-xs-12">
-                <div class="inner-column">
-                    <div class="sec-title">
-                        <h2>Why Choose us</h2>
-                    </div>
-
-                    <!--Accordion Box-->
-                    <ul class="accordion-box">
-                        <!--Block-->
-                        <li class="accordion block active-block">
-                            <div class="acc-btn active">Best Pricing Guarantee</div>
-                            <div class="acc-content current">
-                                <div class="content">
-                                    <p>Operational change management inside of workflows to establish a framework. Taking seamless key performance the indicators offline to maximise the long tail. management inside of workflows to establish a framework. Taking seamless key.</p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">No Goal Requirements</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Operational change management inside of workflows to establish a framework. Taking seamless key performance the indicators offline to maximise the long tail. management inside of workflows to establish a framework. Taking seamless key.</p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">Maximize tax advantages for your gift</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Users after installed base benefits. Dramaticall visualize customer directed convergence without revolutionary ROI.Efficiently unleash cross-media information without cross-media value. Quickly maximiz timely deliverables for real-time schemas.</p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">Most Trusted</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Users after installed base benefits. Dramaticall visualize customer directed convergence without revolutionary ROI.Efficiently unleash cross-media information without cross-media value. Quickly maximiz timely deliverables for real-time schemas.</p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--Block-->
-                        <li class="accordion block">
-                            <div class="acc-btn">Our experience</div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <p>Users after installed base benefits. Dramaticall visualize customer directed convergence without revolutionary ROI.Efficiently unleash cross-media information without cross-media value. Quickly maximiz timely deliverables for real-time schemas.</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul><!--End Accordion Box-->  
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Why Choose Us -->
-
-<!-- Work Section -->
-<section class="work-section-two">
-    <div class="row clearfix">
-        <!-- Work Block -->
-        <div class="work-block-two col-md-4 col-sm-6 col-xs-12">
-            <div class="inner-box">
-                <h4><a href="{{asset('assets/front')}}/causes-single.html">Give Donation</a></h4>
-                <div class="text">Objectively innovate empowered tured products whereas parallel</div>
-            </div>
-        </div>
-
-        <!-- Work Block -->
-        <div class="work-block-two col-md-4 col-sm-6 col-xs-12">
-            <div class="inner-box">
-                <h4><a href="{{asset('assets/front')}}/causes-single.html">Give Scholarship</a></h4>
-                <div class="text">Objectively innovate empowered tured products whereas parallel</div>
-            </div>
-        </div>
-
-        <!-- Work Block -->
-        <div class="work-block-two col-md-4 col-sm-6 col-xs-12">
-            <div class="inner-box">
-                <h4><a href="{{asset('assets/front')}}/causes-single.html">Adopt a Child</a></h4>
-                <div class="text">Objectively innovate empowered tured products whereas parallel</div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Work Section -->
-
-<!-- Testimonial Section Four -->
-<section class="testimonial-section-four">
-    <div class="auto-container">
-        <div class="sec-title text-center">
-            <h2>Our Client Say</h2>
-        </div>
-    </div>
-    <div class="testimonial-carousel-three owl-carousel owl-theme">
-        <!-- Testimonial Block -->
-        <div class="testimonial-block-four">
-            <div class="inner-box">
-                <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-4.jpg" alt=""></div>
-                <div class="text">Strategy foster collaborative thinking to further the overall value proposition. organically grow”</div>
-                <div class="info">
-                    <span class="name">Amanda Stephens</span>
-                    <span class="designation">Donator</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Testimonial Block -->
-        <div class="testimonial-block-four">
-            <div class="inner-box">
-                <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-5.jpg" alt=""></div>
-                <div class="text">Strategy foster collaborative thinking to further the overall value proposition. organically grow”</div>
-                <div class="info">
-                    <span class="name">Nattasha</span>
-                    <span class="designation">Donator</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Testimonial Block -->
-        <div class="testimonial-block-four">
-            <div class="inner-box">
-                <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-6.jpg" alt=""></div>
-                <div class="text">Strategy foster collaborative thinking to further the overall value proposition. organically grow”</div>
-                <div class="info">
-                    <span class="name">Amanda Stephens</span>
-                    <span class="designation">Donator</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Testimonial Block -->
-        <div class="testimonial-block-four">
-            <div class="inner-box">
-                <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-7.jpg" alt=""></div>
-                <div class="text">Strategy foster collaborative thinking to further the overall value proposition. organically grow”</div>
-                <div class="info">
-                    <span class="name">Amanda Stephens</span>
-                    <span class="designation">Donator</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Testimonial Block -->
-        <div class="testimonial-block-four">
-            <div class="inner-box">
-                <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-6.jpg" alt=""></div>
-                <div class="text">Strategy foster collaborative thinking to further the overall value proposition. organically grow”</div>
-                <div class="info">
-                    <span class="name">Nattasha</span>
-                    <span class="designation">Donator</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Testimonial Section -->
-
-<!--Clients Section-->
-<section class="clients-section" style="background-image: url({{asset('assets/front')}}/images/background/10.jpg);">
-    <div class="sponsors-outer">
-        <!--Sponsors Carousel-->
-        <ul class="sponsors-carousel owl-carousel owl-theme">
-            <li class="slide-item"><figure class="image-box"><a href="{{asset('assets/front')}}/#"><img src="{{asset('assets/front')}}/images/clients/1.png" alt=""></a></figure></li>
-            <li class="slide-item"><figure class="image-box"><a href="{{asset('assets/front')}}/#"><img src="{{asset('assets/front')}}/images/clients/2.png" alt=""></a></figure></li>
-            <li class="slide-item"><figure class="image-box"><a href="{{asset('assets/front')}}/#"><img src="{{asset('assets/front')}}/images/clients/3.png" alt=""></a></figure></li>
-            <li class="slide-item"><figure class="image-box"><a href="{{asset('assets/front')}}/#"><img src="{{asset('assets/front')}}/images/clients/4.png" alt=""></a></figure></li>
-            <li class="slide-item"><figure class="image-box"><a href="{{asset('assets/front')}}/#"><img src="{{asset('assets/front')}}/images/clients/5.png" alt=""></a></figure></li>
-            <li class="slide-item"><figure class="image-box"><a href="{{asset('assets/front')}}/#"><img src="{{asset('assets/front')}}/images/clients/1.png" alt=""></a></figure></li>
-            <li class="slide-item"><figure class="image-box"><a href="{{asset('assets/front')}}/#"><img src="{{asset('assets/front')}}/images/clients/2.png" alt=""></a></figure></li>
-            <li class="slide-item"><figure class="image-box"><a href="{{asset('assets/front')}}/#"><img src="{{asset('assets/front')}}/images/clients/3.png" alt=""></a></figure></li>
-            <li class="slide-item"><figure class="image-box"><a href="{{asset('assets/front')}}/#"><img src="{{asset('assets/front')}}/images/clients/4.png" alt=""></a></figure></li>
-            <li class="slide-item"><figure class="image-box"><a href="{{asset('assets/front')}}/#"><img src="{{asset('assets/front')}}/images/clients/5.png" alt=""></a></figure></li>
-        </ul>
-    </div>
-</section>
-<!--End Clients Section-->
 @endsection

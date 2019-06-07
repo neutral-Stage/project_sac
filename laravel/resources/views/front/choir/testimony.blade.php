@@ -1,26 +1,6 @@
 @extends('front.layouts.master')
 @section('content')
-      <!-- Comming Soon -->
-      <section class="coming-soon" style="background-image: url({{asset('assets/front')}}/images/background/11.jpg);">
-        <div class="auto-container">
-            <!-- Title -->
-            <div class="title">
-                <h2>Next Event</h2>
-                <div class="text">Experience god’s presence helping people who need it..</div>        
-            </div>
-
-            <!-- Countdown -->
-            <div class="timer">
-                <div class="cs-countdown" data-countdown="10/20/2019 05:06:59"></div>            
-            </div>
-
-            <div class="link-box">
-                <a href="event-calendar.html" class="theme-btn btn-style-one">Calender</a>
-                <a href="contact.html" class="theme-btn btn-style-two">Sign Up</a>
-            </div>
-        </div>
-    </section>
-    <!--End Comming Soon -->
+      
 
     <!-- Testimonial Section -->
     <section class="testimonial-section-five">
@@ -29,36 +9,37 @@
                 <!-- Testimonial Block -->
                 <div class="testimonial-block-five">
                     <div class="inner-box">
-                        <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-8.jpg" alt=""></div>
+                        <div class="thumb"><img src="{{asset('assets/front')}}/images/choir/ruth.png" alt=""></div>
                         <div class="info">
-                            <h4 class="name">Amanda Stephens</h4>
-                            <span class="designation">Donator</span>
+                            <h4 class="name">Ruth Bonya Munmun</h4>
+                            <span class="designation">Choir Member</span>
                         </div>
-                        <div class="text">Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals after maintainable.</div>
-                        <ul class="social-links">
-                           <li><a href="#"><i class="fa fa-facebook-square"></i></a></li> 
-                           <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
-                           <li><a href="#"><i class="fa fa-twitter-square"></i></a></li> 
-                           <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li> 
-                        </ul>
+                        <div class="text">“The Sacrifice Trust is a place of good people with good will. So I believe that it’s undoubtedly a ministry of God. I can praise God with my whole heart because my ministry taught me how to be a true worshiper. I praise God for my ministry.”</div>
+                        
                     </div> 
                 </div>
 
                 <!-- Testimonial Block -->
                 <div class="testimonial-block-five">
                     <div class="inner-box">
-                        <div class="thumb"><img src="{{asset('assets/front')}}/images/resource/thumb-9.jpg" alt=""></div>
+                        <div class="thumb"><img src="{{asset('assets/front')}}/images/choir/shishir.png" alt=""></div>
                         <div class="info">
-                            <h4 class="name">Nattasha</h4>
-                            <span class="designation">Donator</span>
-                        </div> 
-                        <div class="text">Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals after maintainable.</div>
-                        <ul class="social-links">
-                           <li><a href="#"><i class="fa fa-facebook-square"></i></a></li> 
-                           <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
-                           <li><a href="#"><i class="fa fa-twitter-square"></i></a></li> 
-                           <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li> 
-                        </ul>
+                            <h4 class="name">Shishir Sarker</h4>
+                            <span class="designation">Former Choir leader</span>
+                        </div>
+                        <div class="text">“The vision and aim of sacrifice has influenced me to stay as a volunteer of this ministry. Along with that the love in the team and taking care of each other has been my biggest inspiration to stay in this team. My personal life, my family and my church is blessed because of this ministry. Also it is the source of inspiration for me to dedicate my life for the glory of God.” </div>
+                        
+                    </div> 
+                </div>
+                <div class="testimonial-block-five">
+                    <div class="inner-box">
+                        <div class="thumb"><img src="{{asset('assets/front')}}/images/choir/prapti.png" alt=""></div>
+                        <div class="info">
+                            <h4 class="name">Raisa Prapti Biswas</h4>
+                            <span class="designation">Choir Member</span>
+                        </div>
+                        <div class="text">“I am the youngest member of Sacrifice choir. Initially when I came into sacrifice I had a thought of staying in choir only. But soon I realize that it’s not only a choir but also my second home. I am here to become a true worshiper. This ministry’s biggest influence in my life is that it fully changed my concept about God and thus I get to know God more deeply. Hopefully, Sacrifice will completely transform me and will make me a minister of God.” </div>
+                        
                     </div> 
                 </div>
             </div>
@@ -66,7 +47,7 @@
     </section>
     <!--End Testimonial Section -->
 
-    <!-- News Section -->
+    {{--  <!-- News Section -->
     <section class="news-section-two">
         <div class="auto-container">
             <div class="sec-title light text-center">
@@ -142,7 +123,7 @@
             </div>
         </div>
     </section>
-    <!--End News Section -->
+    <!--End News Section -->  --}}
 
     <!-- Donation Form Two -->
     <section class="donation-form-two">

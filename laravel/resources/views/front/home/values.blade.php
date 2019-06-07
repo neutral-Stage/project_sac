@@ -25,16 +25,12 @@
                             <h2>Core Values</h2>
                             <div class="text"><p>Core values are the fundamental beliefs of a person or organization. Core values also help ministry to determine if they are on the right path and fulfilling their goals by creating an unwavering guide.</p> <br>
                                 <p>The core values of an organization are those values we hold which form the foundation on which we perform work and conduct ourselves.   
-Core values are not descriptions of the work we do or the strategies we employ to accomplish our mission.</p> 
-<br> 
-<p>The values underlie our work, how interact with each other, and which strategies we employ to fulfill our mission.  The core values are the basic elements of how we go about our work.  
-Sacrifice Ministry holds its 9 core values. These values are based on our ministry name ‘Sacrifice’. Our Core values are influenced by the word of God.</p> 
-
-
-</div>
+                                Core values are not descriptions of the work we do or the strategies we employ to accomplish our mission.</p> 
+                                <br> 
+                                <p>The values underlie our work, how interact with each other, and which strategies we employ to fulfill our mission.  The core values are the basic elements of how we go about our work.  
+                                Sacrifice Ministry holds its 9 core values. These values are based on our ministry name ‘Sacrifice’. Our Core values are influenced by the word of God.</p> 
+                            </div>
                         </div>
-
-                        
                     </div>
                 </div>
 
