@@ -73,5 +73,84 @@
                <!--  Info Column -->
                 
     </section>
-    
+    <section class="become-volunteer alternate">
+        <div class="auto-container">
+
+            <div class="feature-column col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <h2>Our Vision</h2>
+                            <div class="text" style="font-size: 20px;line-height: 2;">“To preach out the Gospel among the nations without discrimination and elaborately through appropriate cultural method.”</div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <!-- Image column -->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column wow fadeIn">
+                        <figure><img src="{{ asset( 'assets/front') }}/images/home/slider-2.JPG" alt=""></figure>
+                    </div>
+                </div>
+
+            <div class="feature-column col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <h2>Mission Statement</h2>
+                            <div class="text">To fulfill the Great commission by preaching the Gospel among the nations through appropriate cultural method, teaching & equipping the generation to grow with moral, spiritual and social value and moreover to the service of Christ for establishing holistic model.</div>
+                        </div>
+
+                        <div class="row clearfix">
+                            <!-- Feature BLock -->
+                            <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><span class="flaticon-pay"></span></div>
+                                    <h3><a href="department.html">Acceptance</a></h3>
+                                    <div class="text">Acceptance to the new generation by the combination of culture</div>
+                                </div>
+                            </div>
+
+                            <!-- Feature BLock -->
+                            <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><span class="flaticon-system"></span></div>
+                                    <h3><a href="department.html">Encouragement</a></h3>
+                                    <div class="text">Encouragement of Christian values and consciousness so that the true spirituality can prosper through the scriptural engagement. </div>
+                                </div>
+                            </div>
+
+                            <!-- Feature BLock -->
+                            <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><span class="flaticon-tshirt"></span></div>
+                                    <h3><a href="department.html">Cultural Activities</a></h3>
+                                    <div class="text">By the service of cultural & necessary activities to reduce the social and moral decadence.</div>
+                                </div>
+                            </div>
+
+                            <!-- Feature BLock -->
+                            <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><span class="flaticon-teamwork"></span></div>
+                                    <h3><a href="department.html">Preach</a></h3>
+                                    <div class="text">To preach out the Gospel among the nations through Cultural Gifts and personal interest.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image column -->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column wow fadeIn">
+                        <figure><img src="{{ asset( 'assets/front') }}/images/resource/image-7.png" alt=""></figure>
+                    </div>
+                </div>
+
+            
+
+               <!--  Info Column -->
+                
+    </section>
 @endsection

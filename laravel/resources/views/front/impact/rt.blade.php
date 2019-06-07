@@ -173,315 +173,169 @@
     <!--End Main Slider-->
 
 
-    <!--Causes Grid View Section-->
-        <section class="causes-grid-section">
-        	<div class="auto-container">
-            	
-                <div class="sec-title text-center">
-                    <h2>Blanket Donation </h2>
+   <section class="become-volunteer alternate">
+        <div class="auto-container">
+
+            <div class="feature-column col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <h2>ROCKteens : Teenagers Discipleship </h2>
+                                            <div class="text" style="font-size: 20px;line-height: 2;">Teens are undergoing dramatic changes. In addition to the biological changes of puberty, they experience cognitive changes that allow them to think more abstractly. They become increasingly focused on friends. And as they seek greater independence, they often come into conflict with parents. Most get through adolescence with few problems, establishing identities and preparing for adulthood. Some, however, experience problems that lead to dropping out of school, drug use or crime.
+                                            But teens need the church. If they are not meeting Jesus, then it’s a waste of time. Making them more moral, knowing the Bible or being nice people are pointless without Jesus.
+                        </div>
+                        </div>
+
+                        
+                    </div>
                 </div>
+
+                <!-- Image column -->
+                <div class="image-column col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column wow fadeIn">
+                        <figure><img src="{{ asset( 'assets/front') }}/images/impact/rt1.JPG" alt=""></figure>
+                    </div>
+                </div>
+
+
             
-            	<div class="row clearfix">
-                	
-                    <!-- Cause Block Two -->
-                    <div class="cause-block-two col-md-4 col-sm-6 col-xs-12 wow fadeIn">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front' ) }}/images/resource/cause-15.jpg" alt=""></figure>
-                                <div class="overlay-box"><a href="causes-single.html" class="link">Donate Now</a></div>
-                                <div class="title-box">
-                                    <div class="progress-bar">
-                                        <div class="bar-inner"><div class="bar progress-line" data-width="85"><div class="bar-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="85">0</span>%</div></div></div></div>
-                                    </div>
-                                    <h3><a href="causes-single.html">Drought And Hunger</a></h3>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="text">Integer et diam libero. Praesent  varius nisi. Nunc vCapitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override .</div>
-                                <div class="info-box clearfix">
-                                    <a href="causes-single.html" class="raised">Raised: <span>$1000</span></a>
-                                    <a href="causes-single.html" class="goal">Goal: <span>$11000</span></a>
-                                </div>
-                            </div>
+            <div class="feature-column col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <h2>ROCKteens has a fourfold vision.</h2>
+                            <div class="text">To fulfill the Great commission by preaching the Gospel among the nations through appropriate cultural method, teaching & equipping the generation to grow with moral, spiritual and social value and moreover to the service of Christ for establishing holistic model.</div>
                         </div>
-                    </div>
 
-                    <!-- Cause Block Two -->
-                    <div class="cause-block-two col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="600ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front' ) }}/images/resource/cause-16.jpg" alt=""></figure>
-                                <div class="overlay-box"><a href="causes-single.html" class="link">Donate Now</a></div>
-                                <div class="title-box">
-                                    <div class="progress-bar">
-                                        <div class="bar-inner"><div class="bar progress-line" data-width="65"><div class="bar-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="65">0</span>%</div></div></div></div>
-                                    </div>
-                                    <h3><a href="causes-single.html">Save Poor People</a></h3>
+                        <div class="row clearfix">
+                            <!-- Feature BLock -->
+                            <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><span class="flaticon-pay"></span></div>
+                                    <h3><a href="department.html">Fun</a></h3>
+                                    <div class="text">It’s a place of fun and creative ideas. Teens like fun. So they will come and do fun in a good way.</div>
                                 </div>
                             </div>
-                            <div class="lower-content">
-                                <div class="text">Integer et diam libero. Praesent  varius nisi. Nunc vCapitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override .</div>
-                                <div class="info-box clearfix">
-                                    <a href="causes-single.html" class="raised">Raised: <span>$1200</span></a>
-                                    <a href="causes-single.html" class="goal">Goal: <span>$31000</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- Cause Block Two -->
-                    <div class="cause-block-two col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1200ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front' ) }}/images/resource/cause-17.jpg" alt=""></figure>
-                                <div class="overlay-box"><a href="causes-single.html" class="link">Donate Now</a></div>
-                                <div class="title-box">
-                                    <div class="progress-bar">
-                                        <div class="bar-inner"><div class="bar progress-line" data-width="48"><div class="bar-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="48">0</span>%</div></div></div></div>
-                                    </div>
-                                    <h3><a href="causes-single.html">Send Food To Middle East</a></h3>
+                             <!-- Feature BLock -->
+                            <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><span class="flaticon-tshirt"></span></div>
+                                    <h3><a href="department.html">Cultural Activities</a></h3>
+                                    <div class="text">By the service of cultural & necessary activities to reduce the social and moral decadence.</div>
                                 </div>
                             </div>
-                            <div class="lower-content">
-                                <div class="text">Integer et diam libero. Praesent  varius nisi. Nunc vCapitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override .</div>
-                                <div class="info-box clearfix">
-                                    <a href="causes-single.html" class="raised">Raised: <span>$5000</span></a>
-                                    <a href="causes-single.html" class="goal">Goal: <span>$31000</span></a>
+
+                            <!-- Feature BLock -->
+                            <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><span class="flaticon-tshirt"></span></div>
+                                    <h3><a href="department.html">Friendship</a></h3>
+                                    <div class="text">It’s a place of friendship where teenagers will make their good friends and Jesus will be the center of their friendship.</div>
                                 </div>
                             </div>
+
+                            <!-- Feature BLock -->
+                            <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><span class="flaticon-tshirt"></span></div>
+                                    <h3><a href="department.html">Follow</a></h3>
+                                    <div class="text">It’s a place where teenagers follow the word of God and Christ-like lifestyle.</div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
-                    
-                    <!-- Cause Block Two -->
-                    <div class="cause-block-two col-md-4 col-sm-6 col-xs-12 wow fadeIn">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front' ) }}/images/resource/cause-18.jpg" alt=""></figure>
-                                <div class="overlay-box"><a href="causes-single.html" class="link">Donate Now</a></div>
-                                <div class="title-box">
-                                    <div class="progress-bar">
-                                        <div class="bar-inner"><div class="bar progress-line" data-width="45"><div class="bar-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="45">0</span>%</div></div></div></div>
-                                    </div>
-                                    <h3><a href="causes-single.html">Water For All Children</a></h3>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="text">Integer et diam libero. Praesent  varius nisi. Nunc vCapitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override .</div>
-                                <div class="info-box clearfix">
-                                    <a href="causes-single.html" class="raised">Raised: <span>$1000</span></a>
-                                    <a href="causes-single.html" class="goal">Goal: <span>$11000</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Cause Block Two -->
-                    <div class="cause-block-two col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="600ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front' ) }}/images/resource/cause-19.jpg" alt=""></figure>
-                                <div class="overlay-box"><a href="causes-single.html" class="link">Donate Now</a></div>
-                                <div class="title-box">
-                                    <div class="progress-bar">
-                                        <div class="bar-inner"><div class="bar progress-line" data-width="75"><div class="bar-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="75">0</span>%</div></div></div></div>
-                                    </div>
-                                    <h3><a href="causes-single.html">New School Teachers</a></h3>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="text">Integer et diam libero. Praesent  varius nisi. Nunc vCapitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override .</div>
-                                <div class="info-box clearfix">
-                                    <a href="causes-single.html" class="raised">Raised: <span>$1200</span></a>
-                                    <a href="causes-single.html" class="goal">Goal: <span>$31000</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Cause Block Two -->
-                    <div class="cause-block-two col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1200ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front' ) }}/images/resource/cause-20.jpg" alt=""></figure>
-                                <div class="overlay-box"><a href="causes-single.html" class="link">Donate Now</a></div>
-                                <div class="title-box">
-                                    <div class="progress-bar">
-                                        <div class="bar-inner"><div class="bar progress-line" data-width="88"><div class="bar-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="88">0</span>%</div></div></div></div>
-                                    </div>
-                                    <h3><a href="causes-single.html">Food Security</a></h3>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="text">Integer et diam libero. Praesent  varius nisi. Nunc vCapitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override .</div>
-                                <div class="info-box clearfix">
-                                    <a href="causes-single.html" class="raised">Raised: <span>$5000</span></a>
-                                    <a href="causes-single.html" class="goal">Goal: <span>$31000</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Cause Block Two -->
-                    <div class="cause-block-two col-md-4 col-sm-6 col-xs-12 wow fadeIn">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front' ) }}/images/resource/cause-21.jpg" alt=""></figure>
-                                <div class="overlay-box"><a href="causes-single.html" class="link">Donate Now</a></div>
-                                <div class="title-box">
-                                    <div class="progress-bar">
-                                        <div class="bar-inner"><div class="bar progress-line" data-width="85"><div class="bar-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="85">0</span>%</div></div></div></div>
-                                    </div>
-                                    <h3><a href="causes-single.html">Climate Change</a></h3>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="text">Integer et diam libero. Praesent  varius nisi. Nunc vCapitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override .</div>
-                                <div class="info-box clearfix">
-                                    <a href="causes-single.html" class="raised">Raised: <span>$1000</span></a>
-                                    <a href="causes-single.html" class="goal">Goal: <span>$11000</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Cause Block Two -->
-                    <div class="cause-block-two col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="600ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front' ) }}/images/resource/cause-22.jpg" alt=""></figure>
-                                <div class="overlay-box"><a href="causes-single.html" class="link">Donate Now</a></div>
-                                <div class="title-box">
-                                    <div class="progress-bar">
-                                        <div class="bar-inner"><div class="bar progress-line" data-width="25"><div class="bar-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="25">0</span>%</div></div></div></div>
-                                    </div>
-                                    <h3><a href="causes-single.html">Economic Development</a></h3>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="text">Integer et diam libero. Praesent  varius nisi. Nunc vCapitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override .</div>
-                                <div class="info-box clearfix">
-                                    <a href="causes-single.html" class="raised">Raised: <span>$1200</span></a>
-                                    <a href="causes-single.html" class="goal">Goal: <span>$31000</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Cause Block Two -->
-                    <div class="cause-block-two col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1200ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure><img src="{{ asset( 'assets/front' ) }}/images/resource/cause-23.jpg" alt=""></figure>
-                                <div class="overlay-box"><a href="causes-single.html" class="link">Donate Now</a></div>
-                                <div class="title-box">
-                                    <div class="progress-bar">
-                                        <div class="bar-inner"><div class="bar progress-line" data-width="25"><div class="bar-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="25">0</span>%</div></div></div></div>
-                                    </div>
-                                    <h3><a href="causes-single.html">New School Teachers</a></h3>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="text">Integer et diam libero. Praesent  varius nisi. Nunc vCapitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override .</div>
-                                <div class="info-box clearfix">
-                                    <a href="causes-single.html" class="raised">Raised: <span>$5000</span></a>
-                                    <a href="causes-single.html" class="goal">Goal: <span>$31000</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
                 </div>
-                
-                <!--Styled Pagination-->
-                <ul class="styled-pagination text-center">
-                    <li><a href="#" class="active">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li class="next"><a href="#">Next</a></li>
-                </ul>                
-                <!--End Styled Pagination-->
-                
-            </div>
-        </section>
-        <!--End Causes List View Section-->
-        
-        <!-- Donation Form Two -->
-        <section class="donation-form-two">
-            <div class="auto-container">
 
+                <!-- Image column -->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column wow fadeIn">
+                        <figure><img src="{{ asset( 'assets/front') }}/images/impact/rt2.JPG" alt=""></figure>
+                    </div>
+                </div>
+
+            
+
+                
+    </section>
+
+   <section class="become-volunteer alternate">
+        <div class="auto-container">
+
+            <div class="feature-column col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                          <div class="text" style="font-size: 20px;line-height: 2;">Age level we have decided from 10-18. This age group are not interested to go to Sunday school and on the other hand they are not allowed in youth group. So we are taking initiative as they can learn and come to Jesus in this age. We are discipleing them for 2 years. And after then they will serve for their own church and ministry.
+                            Teen fellowship day in Thursday Evening. Fellowship time 2 hours. 
+
+                        </div>
+                        </div>
+
+                        <div class="text" style="font-size: 20px;line-height: 2;">Teenagers like to be a rock star. Here we are using this name as they can get attracted by this name. But we have a different view in the basis of Bible. 
+
+                        </div>
+
+                        <div class="sac">
+                            <ul>
+                                <li><h4 style="font-size: 20px;">	Jesus is the Rock. (1 Cor. 10:4)</h4></li>
+                                <li><h4 style="font-size: 20px;">	He is the corner stone. (Eph. 2:20)</h4></li>
+                                <li><h4 style="font-size: 20px;">	Teenagers will be saved by the blood of Jesus. (Eph. 2:16)</h4></li>
+                                <li><h4 style="font-size: 20px;">	Teens will build their life on the rock. (Word of God) not on the sand. (Mt. 7:24-27)</h4></li>
+                                <li><h4 style="font-size: 20px;">	They will be new in Christ. (2 Cor. 5:17)</h4></li>
+                            </ul>
+                            
+
+
+
+
+
+                        </div>
+                        <div class="text" style="font-size: 20px;line-height: 2;">We have a great vision to extend this ministry all over the country. We are praying for that. We want to see that every churches of our country, they are nurturing and feeding their flocks with proper Biblical values. Manual for the teenagers are going to be published soon!</div>
+                        
+                    </div>
+
+
+                </div>
+
+                <!-- Image column -->
+                <div class="image-column col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class="inner-column wow fadeIn">
+                        <figure><img src="{{ asset( 'assets/front') }}/images/impact/rt3.JPG" alt=""></figure>
+                    </div>
+                </div>
+
+
+            
+            
+                    
+
+            
+
+                
+    </section> 
+
+<!--Fun Facts Section-->
+    <div class="fun-fact-section-two style-two" style="background-image: url({{ asset( 'assets/front') }}/images/background/7.jpg);">
+        <div class="auto-container">
+            <div class="fact-counter">
                 <div class="row clearfix">
-                    <!-- Form Column -->
-                    <div class="form-column col-md-12 col-sm-12 col-xs-12">
-                        <!-- Donation Form -->
-                        <div class="donation-form style-two middle-aligned">
-                            <form  method="post" action="http://t.commonsupport.com/incles/index-2.html">
-                                <div class="row clearfix">
-                                    <div class="form-group col-md-12 col-sm-6 col-xs-12">
-                                        <input type="radio" name="one-time" id="one-time">
-                                        <label for="one-time">One Time</label>
-                                        <input type="radio" name="one-time" id="recurring">
-                                        <label for="recurring">Recurring</label>
-                                    </div>
-
-                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                        <h4>I Want to Donate for</h4>
-                                        <select class="custom-select-box">
-                                            <option>Educated Childrens</option>
-                                            <option>Educated Childrens</option>
-                                            <option>Educated Childrens</option>
-                                            <option>Educated Childrens</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="form-group col-md-12 col-sm-6 col-xs-12">
-                                        <h4>Currency</h4>
-                                        <select class="custom-select-box">
-                                            <option>USD , Us dollers</option>
-                                            <option>USD , Us dollers</option>
-                                            <option>USD , Us dollers</option>
-                                            <option>USD , Us dollers</option>
-                                            <option>USD , Us dollers</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="form-group col-md-12 col-sm-6 col-xs-12">
-                                        <h4>How much do you want to donate?</h4>
-                                        <select class="custom-select-box">
-                                            <option>$1200</option>
-                                            <option>$1000</option>
-                                            <option>$800</option>
-                                            <option>$500</option>
-                                            <option>$100</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="form-group col-md-12 col-sm-12 col-xs-12 btn-box">
-                                        <button type="submit" class="theme-btn btn-style-two">Donate Now</button>
-                                    </div>
-                                </div>
-                            </form>
+                    <!--Column-->
+                    <div class="counter-column-two col-md-12 col-sm-12 col-xs-12 wow fadeIn">
+                        <div class="inner">
+                            <div class="count-box">
+                                <!-- <span class="icon flaticon-heart-12"></span> -->
+                                
+                                <span class="counter-title" style="line-height: 2;">ROCKteens is a fellowship of teenagers. Biblical base of the fellowship is ‘Let the children come to me’. (Luke 18:16). </span>
+                                
+                            </div>
                         </div>
                     </div>
+
+                   
+                    
                 </div>
             </div>
-        </section>
-        <!--End Donation Form -->
-
-        <!-- Call To Action -->
-        <section class="call-to-action" style="background-image: url(images/background/12.jpg);">
-            <div class="inner-container clearfix">
-                <div class="title-column pull-left">
-                    <span>Contact Us Now !</span>
-                    <h2>+ 12 123 456 789</h2>
-                </div>
-
-                <div class="btn-column pull-right">
-                    <a href="contact.html" class="theme-btn btn-style-three">Get In Touch</a>
-                </div>
-            </div>
-        </section>
-        <!--End Call To Action -->
-
-
+        </div>
+    </div>
+    <!--End Fun Facts Section-->
 
   @endsection
