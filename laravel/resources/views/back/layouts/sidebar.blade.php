@@ -97,6 +97,32 @@
                 </ul>
             </li>
 <!--==========================================---------------=====================-->
+<!--==========================================---------------=====================-->
+            <li class="@if(isset($activesateus)) {{ $activesateus == 'vol' ? 'active' : '' }} @endif">
+                <a href="{{ route('volunteer.index') }}"><i class="sidebar-item-icon fa fa-handshake-o"></i>
+                    <span class="nav-label">Volunteer</span></a>
+            </li>
+
+<!--==========================================---------------=====================-->
+
+<!--==========================================---------------=====================-->
+            <li class=" @if(isset($activesateus)) {{ $activesateus == 'slide' ? 'active' : '' }} @endif">
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-money"></i>
+                    <span class="nav-label">Donation</span><i class="fa fa-angle-left arrow"></i></a>
+                <ul class="nav-2-level collapse">
+                    <li>
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'slide.add' ? 'active' : '' }} @endif" href="{{ route('slider.create') }}">
+                        <i class="sidebar-item-icon fa fa-plus"></i>Add</a>
+                    </li>
+                    <li>
+                        <a class="@if(isset($subactivesateus)) {{ $subactivesateus == 'slide.manage' ? 'active' : '' }} @endif" href="{{ route('slider.index') }}">
+                        <i class="sidebar-item-icon fa fa-gear"></i>Manage</a>
+                    </li>
+                    
+                </ul>
+            </li>
+<!--==========================================---------------=====================-->
+
 @endif
             
 <!--==========================================---------------=====================-->

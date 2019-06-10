@@ -42,8 +42,10 @@ Route::get('/impact-story/india','SowController@imp_in')->name('imp_in');
 Route::get('/live-drama','ArtsController@index')->name('live_drama');
 Route::get('/ttc','ArtsController@ttc')->name('ttc');
 Route::get('/case','ArtsController@case')->name('case');
+
 //Volenteer
 Route::get('/volunteer', 'VolController@index')->name('volunteer');
+Route::post('/volunteer/sing-up', 'VolController@signup')->name('volunteer.singup');
 // Route::group(['prefix'=>'home'],function(){
 // 	Route::get('/','FrontController@index')->name('home');
 // });
@@ -98,6 +100,15 @@ Route::prefix('dashboard')->middleware('auth')->group(function () {
 
 	//choir member
 	Route::resource('/choir/team_member', 'Dashboard\ChoirMemberController');
+});
+
+//Dashboard Volunteer Handling Route//
+Route::prefix('dashboard')->middleware('auth')->group(function () {
+	Route::get('/volunteer/active', 'Dashboard\VolunteerHandlingController@active')->name('volunteer.active');
+	Route::get('/volunteer/inactive', 'Dashboard\VolunteerHandlingController@inactive')->name('volunteer.inactive');
+	Route::get('/volunteer/index', 'Dashboard\VolunteerHandlingController@index')->name('volunteer.index');
+	Route::get('/volunteer/accept/{id}', 'Dashboard\VolunteerHandlingController@accept')->name('volunteer.accept');
+	Route::get('/volunteer/deny/{id}', 'Dashboard\VolunteerHandlingController@deny')->name('volunteer.deny');
 });
 
 
