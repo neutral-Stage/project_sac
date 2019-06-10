@@ -219,8 +219,8 @@
                             <div class="featrue-block col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner-box">
                                     <div class="icon-box"><span class="flaticon-tshirt"></span></div>
-                                    <h3><a href="department.html">Cultural Activities</a></h3>
-                                    <div class="text">By the service of cultural & necessary activities to reduce the social and moral decadence.</div>
+                                    <h3><a href="department.html">Fellowship</a></h3>
+                                    <div class="text">It’s a fellowship where teenagers meet God and people.Teen fellowship day in Thursday Evening. Fellowship time 2 hours. </div>
                                 </div>
                             </div>
 
