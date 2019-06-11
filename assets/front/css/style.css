@@ -6722,7 +6722,7 @@ img{
 .subscribe-form .form-group{
 	position:relative;
 	display:block;
-	margin: 0;
+	margin: 3px;
 	width:100%;
 	z-index:1;
 	padding-right: 190px;
@@ -6765,9 +6765,9 @@ img{
 
 .subscribe-form .form-group input[type="submit"],
 .subscribe-form button{
-	position:absolute;
+	/*position:absolute;
 	right:0px;
-	top:0px;
+	top:0px;*/
 	line-height: 20px;
 	min-width: 170px;
 }

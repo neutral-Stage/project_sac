@@ -73,7 +73,7 @@
                 </li>
                 
                 <li class="@if(isset($contact)) {{ 'current' }} @endif"><a href="{{ route( 'contact') }}">Contact</a></li>
-            <li><a class="btn bg-white" href="{{route('volunteer')}}">Become a Volunteer</a></li>
+            <li class="@if(isset($vol)) {{ 'current' }} @endif"><a class=" current" href="{{route('volunteer')}}">Become a Volunteer</a></li>
             </ul>
         </div>
     </nav>

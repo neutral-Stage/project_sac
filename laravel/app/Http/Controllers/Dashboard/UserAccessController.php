@@ -33,12 +33,13 @@ class UserAccessController extends Controller
     	$num_role_id = count($role_ids);
     	if($num_role_id !== 0){
     	    foreach ($role_ids as  $value) {
-    	        $role_ids[] = $value->role_id;
+    	        $ids[] = $value->role_id;
     	    }
-    	    //return $role_id;
-    	    foreach ($role_ids as $role_id) {
-    	        $roles[] = Role::where('id',$role_id)->first();
-    	    }
+            //return $role_ids;
+            foreach ($ids as $role_id) {
+                $roles[] = Role::where('id',$role_id)->select('role')->first();
+            }
+    	    //return $roles;
     	    foreach ($roles as  $role) {
     	        $role_names[] = $role->role;
     	    }
