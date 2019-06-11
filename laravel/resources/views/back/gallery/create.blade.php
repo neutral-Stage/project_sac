@@ -28,7 +28,7 @@
                 @csrf
             	<div class="col-12 m-b-20">
                     <div class=" form-inline">
-                        <label class="ui-radio ui-radio-primary">
+                         <label class="ui-radio ui-radio-primary">
                             <input type="radio" value="home" name="type">
                             <span class="input-span"></span>Home</label>
 
@@ -40,13 +40,33 @@
                             <input type="radio" value="sow" name="type">
                             <span class="input-span"></span>SOW</label>
 
+                        <label class="ui-radio ui-radio-success ml-4">
+                            <input type="radio" value="wme" name="type">
+                            <span class="input-span"></span>WME Course</label>
+
                         <label class="ui-radio ui-radio-info ml-4">
-                            <input type="radio" value="music" name="type">
-                            <span class="input-span"></span>PM Music</label>
+                            <input type="radio" value="in-house" name="type">
+                            <span class="input-span"></span>In-House</label>
+
+                        <label class="ui-radio ui-radio-info ml-4">
+                            <input type="radio" value="out-house" name="type">
+                            <span class="input-span"></span>Out-House</label>
 
                         <label class="ui-radio ui-radio-warning ml-4">
-                            <input type="radio" value="im_nation" name="type">
-                            <span class="input-span"></span>Impact Nation</label>
+                            <input type="radio" value="npwc" name="type">
+                            <span class="input-span"></span>NPWC</label>
+
+                        <label class="ui-radio ui-radio-warning ml-4">
+                            <input type="radio" value="rockteens" name="type">
+                            <span class="input-span"></span>RockTeens</label>
+
+                        <label class="ui-radio ui-radio-warning ml-4">
+                            <input type="radio" value="GCEC" name="type">
+                            <span class="input-span"></span>GCEC</label>
+
+                        <label class="ui-radio ui-radio-warning ml-4">
+                            <input type="radio" value="SOL" name="type">
+                            <span class="input-span"></span>Source Of Life</label>
 
                         <label class="ui-radio ui-radio-success ml-4">
                             <input type="radio" value="lfu_blanket" name="type">

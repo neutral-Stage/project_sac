@@ -31,7 +31,7 @@
                             <th>Id</th>
                             <th>Type</th>
                             <th>Title 1</th>
-                            <th>Title 1</th>
+                            <th>Title 2 (Red)</th>
                             <th>Body Text</th>
                             <th>Image</th>
                             <th>Actions</th>
