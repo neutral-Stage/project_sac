@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Slider;
 
 use Illuminate\Http\Request;
 
@@ -8,8 +9,9 @@ class ChoirController extends Controller
 {
     public function index()
     {
-    	$choir = 'true';
-    	return view('front.choir.choir',compact('choir'));
+        $choir = 'true';
+        $sliders = Slider::where('type', 'choir')->select('title_1', 'title_2', 'body_text', 'image')->get();
+    	return view('front.choir.choir',compact('choir', 'sliders'));
     }
     public function volunteer()
     {
