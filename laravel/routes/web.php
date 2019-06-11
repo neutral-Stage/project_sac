@@ -61,10 +61,23 @@ Route::get('/Impact-Nation/RT', 'ImpactController@rt')->name('rt');
 Route::get('/Impact-Nation/GCEC', 'ImpactController@gcec')->name('gcec');
 Route::get('/Impact-Nation/SOL', 'ImpactController@sol')->name('sol');
 
+//Frontend Donation related route
+Route::get('/donation','DonationController@index')->name('donation.create');
+Route::post('/donation/method','DonationController@method')->name('donation.method');
+Route::post('/donation/bkash/store','DonationController@bkash')->name('bkash.store');
 
 
 Auth::routes();
 Route::get('/home', 'Dashboard\dashboardController@index')->name('home')->middleware('auth');
+
+//user access control
+Route::prefix('s_admin')->middleware('auth','Check_super_admin')->group(function () {
+	Route::get('/user/all', 'Dashboard\UserAccessController@index')->name('user.all');
+	Route::get('/user/access/view/{id}', 'Dashboard\UserAccessController@access')->name('user.access.view');
+
+	Route::get('/user/access/set_role/{id}/{role_id}', 'Dashboard\UserAccessController@set_role')->name('make.author');
+	Route::get('/user/access/seize_role/{id}/{role_id}', 'Dashboard\UserAccessController@seize_role')->name('suspend.author');
+});
 
 //Dashboard Route
 Route::prefix('dashboard')->middleware('auth')->group(function () {
@@ -112,17 +125,15 @@ Route::prefix('dashboard')->middleware('auth')->group(function () {
 });
 
 
-
-    
-
-//user access control
-Route::prefix('s_admin')->middleware('auth','Check_super_admin')->group(function () {
-	Route::get('/user/all', 'Dashboard\UserAccessController@index')->name('user.all');
-	Route::get('/user/access/view/{id}', 'Dashboard\UserAccessController@access')->name('user.access.view');
-
-	Route::get('/user/access/set_role/{id}/{role_id}', 'Dashboard\UserAccessController@set_role')->name('make.author');
-	Route::get('/user/access/seize_role/{id}/{role_id}', 'Dashboard\UserAccessController@seize_role')->name('suspend.author');
+//bkash route//
+Route::prefix('dashboard')->middleware('auth')->group(function () {
+	Route::get('/bkash/index', 'Dashboard\payment\BkashController@index')->name('bkash.index');
+	Route::get('/bkash/delete/{id}', 'Dashboard\payment\BkashController@delete')->name('bkash.delete');
+	Route::get('/bkash/approve/{id}', 'Dashboard\payment\BkashController@approve')->name('bkash.approve');
+	Route::get('/bkash/reject/{id}', 'Dashboard\payment\BkashController@reject')->name('bkash.reject');
 });
+
+
 
 //Authorization Failed page
 Route::get('/auth/failed', 'Dashboard\dashboardController@auth_failed')->name('user.auth.failed');
